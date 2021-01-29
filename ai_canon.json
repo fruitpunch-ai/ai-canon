@@ -1,0 +1,104 @@
+{
+    "Background": {
+        "category": "top_level",
+        "children": {
+            "Statistics": {
+                "category": "Subject",
+                "children": {
+
+                }
+            },
+            "Calculus": {"category": "Subject"},
+            "Linear Algebra": {"category": "Subject"},
+            "Information Theory": {"category": "Subject"}
+            
+        }
+    },
+    "Programming": {
+        "category": "top_level",
+        "children": {
+            "Python for Data Science": {
+                "category": "Subject",
+                "children": {
+                    "Numpy": {"category": "Topic"},
+                    "Pandas": {"category": "Topic"},
+                    "Scipy": {"category": "Topic"}
+                }
+            },
+            "Developer basics": {
+                "category": "Subject",
+                "children": {
+                    "Git": {"category": "Topic"},
+                    "SSH": {"category": "Topic"},
+                    "Virtual environments": {"category": "Topic"},
+                    "Linux": {"category": "Topic"}
+                }
+            },
+            "Alternative languages": {"category": "Subject"},
+            "Advanced programming methods": {"category": "Subject"}
+        }
+    },
+    "Machine Learning": {
+        "category": "top_level",
+        "children": {
+            "Machine Learning problems": {"category": "Subject"},
+            "Machine learning methods": {"category": "Subject"},
+            "Tools and libraries": {"category": "Subject"}
+        }
+    },
+    "Data Engineering": {
+        "category": "top_level",
+        "children": {
+            "Data Exploration": {"category": "Subject"},
+            "Data Cleaning": {"category": "Subject"},
+            "Feature engineering": {"category": "Subject"},
+            "AI pitfalls": {"category": "Subject"},
+            "Tools and libraries": {"category": "Subject"}
+        }
+    },
+    "Deep Learning": {
+        "category": "top_level",
+        "children": {
+            "Neural Networks": {"category": "Subject"},
+            "Relevant technologies": {"category": "Subject"},
+            "Tools and libraries": {"category": "Subject"}
+        }
+    },
+    "AI ethics": {
+        "category": "top_level",
+        "children": {
+            "Frequency bias": {"category": "Subject"},
+            "Unethical features": {"category": "Subject"},
+            "Privacy": {"category": "Subject"}
+        }
+    },
+    "AI in production": {
+        "category": "top_level",
+        "children": {
+            "Data storage": {"category": "Subject"},
+            "Data processing": {"category": "Subject"},
+            "Data security": {"category": "Subject"},
+            "Cloud technologies": {"category": "Subject"},
+            "Industry standards": {"category": "Subject"},
+            "Systems": {"category": "Subject"},
+            "Scale computing": {"category": "Subject"}
+        }
+    },
+    "Advanced Methods": {
+        "category": "top_level",
+        "children": {
+            "NLP": {"category": "Subject"},
+            "AutoML": {"category": "Subject"}
+        }
+    },
+    "Domain Topics": {
+        "category": "top_level",
+        "children": {
+            "Edge computing": {"category": "Subject"},
+            "Signal processing": {"category": "Subject"},
+            "Robotics": {"category": "Subject"},
+            "Privacy": {"category": "Subject"},
+            "Neuromorphic computing": {"category": "Subject"}
+        }
+    }
+}
