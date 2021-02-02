@@ -64,8 +64,56 @@
                     "Machine Learning": {
                         "category": "top_level",
                         "children": {
-                            "Machine Learning problems": {"category": "Subject"},
-                            "Machine learning methods": {"category": "Subject"},
+                            "Machine Learning problems": {
+                                "category": "Subject",
+                                "children": {
+                                    "Classification": {"category": "Topic"},
+                                    "Regression": {"category": "Topic"},
+                                    "Clustering": {"category": "Topic"},
+                                    "Specialized": {
+                                        "category": "Sub-subject",
+                                        "children": {
+                                            "Dimensionality reduction": {"category": "Topic"},
+                                            "Anomaly detection": {"category": "Topic"},
+                                            "Reinforcement learning": {"category": "Topic"},
+                                            "Sequence to Sequence modeling": {"category": "Topic"},
+                                            "Forecasting": {"category": "Topic"}
+                                        }
+                                    }
+                                }
+                            },
+                            "Machine learning methods": {
+                                "category": "Subject",
+                                "children": {
+                                    "Statistical": {
+                                        "category": "Sub-subject",
+                                        "children": {
+                                            "Curve fitting": {"category": "Topic"},
+                                            "ANOVA": {"category": "Topic"},
+                                            "Moving Average": {"category": "Topic"},
+                                            "SARIMA": {"category": "Topic"},
+                                        }
+                                    },
+                                    "Classical": {
+                                        "category": "Sub-subject",
+                                        "children": {
+                                            "Linear models": {"category": "Topic"},
+                                            "Nearest Neigbours": {"category": "Topic"},
+                                            "Kernalization": {"category": "Topic"},
+                                            "Desision trees": {"category": "Topic"},
+                                            "Baysian learning": {"category": "Topic"},
+                                            "Ensable methods": {"category": "Topic"}
+                                        }
+                                    },
+                                    "Other": {
+                                        "category": "Sub-subject",
+                                        "children": {
+                                            "Transfer learning": {"category": "Topic"},
+                                            "Early stopping": {"category": "Topic"},
+                                        }
+                                    }
+                                }
+                            },
                             "Tools and libraries": {"category": "Subject"}
                         }
                     },
@@ -82,7 +130,26 @@
                     "Deep Learning": {
                         "category": "top_level",
                         "children": {
-                            "Neural Networks": {"category": "Subject"},
+                            "Neural Networks": {
+                                "category": "Subject",
+                                "children": {
+                                    "Perceptron": {"category": "Topic"},
+                                    "Layers": {"category": "Topic"},
+                                    "Backpropagation": {"category": "Topic"},
+                                    "Gradien Descent": {"category": "Topic"},
+                                    "Activation functions": {"category": "Topic"},
+                                    "Loss functions": {"category": "Topic"}
+                                }
+                            },
+                            "Layer types": {
+                                "category": "Subject",
+                                "children": {
+                                    "Multilayer perceptrons": {"category": "Topic"},
+                                    "Convolutional Neural Networks": {"category": "Topic"},
+                                    "Recurrent Neural Networks": {"category": "Topic"}
+                                }
+                            },
+                            "Regularization": {"category": "Subject"},
                             "Relevant technologies": {"category": "Subject"},
                             "Tools and libraries": {"category": "Subject"}
                         }
@@ -138,17 +205,30 @@
                     "Advanced Methods": {
                         "category": "top_level",
                         "children": {
+                            "Deep Reinforcement Learning": {"category": "Subject"},
                             "NLP": {"category": "Subject"},
-                            "AutoML": {"category": "Subject"}
+                            "Generative Adveserial Networks": {"category": "Subject"},
+                            "Transformers": {"category": "Subject"}, 
+                            "Few shot learning": {"category": "Subject"}, 
+                            "AutoML": {"category": "Subject"}, 
+                            "Meta Learning": {"category": "Subject"}, 
+                            "Metric Learning": {"category": "Subject"}, 
                         }
                     },
                     "Domain Topics": {
                         "category": "top_level",
                         "children": {
+                            "Privacy": {
+                                "category": "Subject",
+                                "children": {
+                                    "Cryptography": {"category": "Topic"},
+                                    "Differential Privacy": {"category": "Topic"},
+                                    "Federated Learning": {"category": "Topic"}
+                                }
+                            },
                             "Edge computing": {"category": "Subject"},
                             "Signal processing": {"category": "Subject"},
                             "Robotics": {"category": "Subject"},
-                            "Privacy": {"category": "Subject"},
                             "Neuromorphic computing": {"category": "Subject"}
                         }
                     }
