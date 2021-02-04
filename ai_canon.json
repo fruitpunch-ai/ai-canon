@@ -13,7 +13,9 @@
                             "Statistics": {"category": "Subject"},
                             "Calculus": {"category": "Subject"},
                             "Linear Algebra": {"category": "Subject"},
-                            "Information Theory": {"category": "Subject"}
+                            "Information Theory": {"category": "Subject"},
+                            "Data Structures": {"category": "Subject"},
+                            "Algorithms": {"category": "Subject"}
                             
                         }
                     },
@@ -153,8 +155,38 @@
                             "Relevant technologies": {"category": "Subject"},
                             "Tools and libraries": {"category": "Subject"}
                         }
+                    },
+                    "Model evaluation": {
+                        "category": "top_level",
+                        "children": {
+                            "Classification metrics": {"category": "Subject"},
+                            "Regression metrics": {"category": "Subject"},
+                            "Cluster metrics": {"category": "Subject"},
+                            "Feature impportance": {"category": "Subject"}
+                        }
+                    },
+                    "Training in pracktice": {
+                        "category": "top_level",
+                        "children": {
+                            "Training challenges": {
+                                "category": "Subject",
+                                "children": {
+                                    "Overfitting": {"category": "Topic"},
+                                    "Cross validation": {"category": "Topic"},
+                                    "Hyperparameter optimization": {"category": "Topic"}
+                                }
+                            },
+                            "Training hacks": {
+                                "category": "Subject",
+                                "children": {
+                                    "Training acceleration": {"category": "Topic"},
+                                    "Transfer learning": {"category": "Topic"}
+                                }
+                            }
+                        }
                     }
                 }
+                
             },
             "Practice": {
                 "category": "category",
@@ -188,13 +220,19 @@
                             "CI/CD": {"category": "Topic"}
                         }
                     }, 
-                    "MLOps" {
+                    "MLOps": {
                         "category": "top_level",
                         "children": {
                             "Data versioning": {"category": "Topic"},
                             "Model retraining": {"category": "Topic"},
                             "Model testing and validation": {"category": "Topic"},
                             "Monitroing": {"category": "Topic"}
+                        }
+                    },
+                    "Trasfering models to the real world": {
+                        "category": "top_level",
+                        "children": {
+                            "RL IRL": {"category": "Subject"}
                         }
                     }
                 }
