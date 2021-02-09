@@ -93,7 +93,7 @@
                                             "Curve fitting": {"category": "Topic"},
                                             "ANOVA": {"category": "Topic"},
                                             "Moving Average": {"category": "Topic"},
-                                            "SARIMA": {"category": "Topic"},
+                                            "SARIMA": {"category": "Topic"}
                                         }
                                     },
                                     "Classical": {
@@ -111,7 +111,7 @@
                                         "category": "Sub-subject",
                                         "children": {
                                             "Transfer learning": {"category": "Topic"},
-                                            "Early stopping": {"category": "Topic"},
+                                            "Early stopping": {"category": "Topic"}
                                         }
                                     }
                                 }
@@ -250,7 +250,7 @@
                             "Few shot learning": {"category": "Subject"}, 
                             "AutoML": {"category": "Subject"}, 
                             "Meta Learning": {"category": "Subject"}, 
-                            "Metric Learning": {"category": "Subject"}, 
+                            "Metric Learning": {"category": "Subject"} 
                         }
                     },
                     "Domain Topics": {
