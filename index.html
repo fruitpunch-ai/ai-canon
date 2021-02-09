@@ -17,7 +17,8 @@
 
 </style>
 <body>
-<script src="//d3js.org/d3.v3.min.js"></script>
+
+<script src="https://d3js.org/d3.v3.min.js"></script>
 <script>
 
 var width = 960,
@@ -52,7 +53,7 @@ function update() {
       .links(links)
       .start();
 
-  // Update the links…
+  // Update the links�
   link = link.data(links, function(d) { return d.target.id; });
 
   // Exit any old links.
@@ -66,11 +67,21 @@ function update() {
       .attr("x2", function(d) { return d.target.x; })
       .attr("y2", function(d) { return d.target.y; });
 
-  // Update the nodes…
+  // Update the nodes�
   node = node.data(nodes, function(d) { return d.id; }).style("fill", color);
 
   // Exit any old nodes.
   node.exit().remove();
+
+  // Add names
+  node.enter().append("text")
+    .attr("x", function(d) { return d.x; })
+    .attr("y", function(d) { return d.y; })
+	  //.attr("dy", ".35em")
+	  //.attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
+	  .text(function(d) { return d.name; })
+    .style("fill-opacity", 1);
+    
 
   // Enter any new nodes.
   node.enter().append("circle")
@@ -81,6 +92,18 @@ function update() {
       .style("fill", color)
       .on("click", click)
       .call(force.drag);
+  
+
+    
+  //     force.on("tick", function(e) {
+  //     var k = 6 * e.alpha;
+  //   links.forEach(function(d, i) {
+  //     d.source.y -= k;
+  //     d.target.y += k;
+  //   });
+  // });
+
+    
 }
 
 function tick() {
@@ -123,6 +146,7 @@ function flatten(root) {
   }
 
   recurse(root);
+  console.log(nodes);
   return nodes;
 }
 

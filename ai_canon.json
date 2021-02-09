@@ -102,7 +102,7 @@
                                             "Linear models": {"category": "Topic"},
                                             "Nearest Neigbours": {"category": "Topic"},
                                             "Kernalization": {"category": "Topic"},
-                                            "Desision trees": {"category": "Topic"},
+                                            "Decision trees": {"category": "Topic"},
                                             "Baysian learning": {"category": "Topic"},
                                             "Ensable methods": {"category": "Topic"}
                                         }
@@ -165,7 +165,7 @@
                             "Feature impportance": {"category": "Subject"}
                         }
                     },
-                    "Training in pracktice": {
+                    "Training in practice": {
                         "category": "top_level",
                         "children": {
                             "Training challenges": {
@@ -173,16 +173,20 @@
                                 "children": {
                                     "Overfitting": {"category": "Topic"},
                                     "Cross validation": {"category": "Topic"},
-                                    "Hyperparameter optimization": {"category": "Topic"}
+                                    "Hyperparameter optimization": {"category": "Topic"},
+                                    "Data generators"
                                 }
                             },
                             "Training hacks": {
                                 "category": "Subject",
                                 "children": {
                                     "Training acceleration": {"category": "Topic"},
-                                    "Transfer learning": {"category": "Topic"}
+                                    "Transfer learning": {"category": "Topic"},
+                                    "Data Augmentation"
                                 }
                             }
+                            "Data model experiment versioning": {
+                            },
                         }
                     }
                 }
@@ -209,6 +213,7 @@
                             "Industry standards": {"category": "Subject"},
                             "Systems": {"category": "Subject"},
                             "Scale computing": {"category": "Subject"}
+                            "Inferance optimization (model pruning)"
                         }
                     },
                     "DevOps": {
@@ -233,6 +238,7 @@
                         "category": "top_level",
                         "children": {
                             "RL IRL": {"category": "Subject"}
+                            "Model drift"
                         }
                     }
                 }

@@ -1,618 +1,719 @@
-[
-    {
-        "category": "root",
-        "children": [
-            {
-                "category": "category",
-                "children": [
-                    {
-                        "category": "top_level",
-                        "children": [
-                            {
-                                "category": "Subject",
-                                "name": "Statistics"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Calculus"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Linear Algebra"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Information Theory"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Data Structures"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Algorithms"
-                            }
-                        ],
-                        "name": "Background"
-                    },
-                    {
-                        "category": "top_level",
-                        "children": [
-                            {
-                                "category": "Subject",
-                                "name": "Programming basics"
-                            },
-                            {
-                                "category": "Subject",
-                                "children": [
-                                    {
-                                        "category": "Topic",
-                                        "name": "IDEs"
-                                    },
-                                    {
-                                        "category": "Topic",
-                                        "name": "Types"
-                                    },
-                                    {
-                                        "category": "Topic",
-                                        "name": "Functions"
-                                    }
-                                ],
-                                "name": "Programming in Python"
-                            },
-                            {
-                                "category": "Subject",
-                                "children": [
-                                    {
-                                        "category": "Topic",
-                                        "name": "Numpy"
-                                    },
-                                    {
-                                        "category": "Topic",
-                                        "name": "Pandas"
-                                    },
-                                    {
-                                        "category": "Topic",
-                                        "name": "Scipy"
-                                    }
-                                ],
-                                "name": "Python for Data Science"
-                            },
-                            {
-                                "category": "Subject",
-                                "children": [
-                                    {
-                                        "category": "Topic",
-                                        "name": "Git"
-                                    },
-                                    {
-                                        "category": "Topic",
-                                        "name": "SSH"
-                                    },
-                                    {
-                                        "category": "Topic",
-                                        "name": "Virtual environments"
-                                    },
-                                    {
-                                        "category": "Topic",
-                                        "name": "Linux"
-                                    }
-                                ],
-                                "name": "Developer basics"
-                            },
-                            {
-                                "category": "Subject",
-                                "children": [
-                                    {
-                                        "category": "Topic",
-                                        "name": "R"
-                                    },
-                                    {
-                                        "category": "Topic",
-                                        "name": "Julia"
-                                    },
-                                    {
-                                        "category": "Topic",
-                                        "name": "Java"
-                                    },
-                                    {
-                                        "category": "Topic",
-                                        "name": "Matlab"
-                                    }
-                                ],
-                                "name": "Alternative DS languages"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Advanced programming methods"
-                            }
-                        ],
-                        "name": "Programming"
-                    }
-                ],
-                "name": "Basis"
-            },
-            {
-                "category": "category",
-                "children": [
-                    {
-                        "category": "top_level",
-                        "children": [
-                            {
-                                "category": "Subject",
-                                "children": [
-                                    {
-                                        "category": "Topic",
-                                        "name": "Classification"
-                                    },
-                                    {
-                                        "category": "Topic",
-                                        "name": "Regression"
-                                    },
-                                    {
-                                        "category": "Topic",
-                                        "name": "Clustering"
-                                    },
-                                    {
-                                        "category": "Sub-subject",
-                                        "children": [
-                                            {
-                                                "category": "Topic",
-                                                "name": "Dimensionality reduction"
-                                            },
-                                            {
-                                                "category": "Topic",
-                                                "name": "Anomaly detection"
-                                            },
-                                            {
-                                                "category": "Topic",
-                                                "name": "Reinforcement learning"
-                                            },
-                                            {
-                                                "category": "Topic",
-                                                "name": "Sequence to Sequence modeling"
-                                            },
-                                            {
-                                                "category": "Topic",
-                                                "name": "Forecasting"
-                                            }
-                                        ],
-                                        "name": "Specialized"
-                                    }
-                                ],
-                                "name": "Machine Learning problems"
-                            },
-                            {
-                                "category": "Subject",
-                                "children": [
-                                    {
-                                        "category": "Sub-subject",
-                                        "children": [
-                                            {
-                                                "category": "Topic",
-                                                "name": "Curve fitting"
-                                            },
-                                            {
-                                                "category": "Topic",
-                                                "name": "ANOVA"
-                                            },
-                                            {
-                                                "category": "Topic",
-                                                "name": "Moving Average"
-                                            },
-                                            {
-                                                "category": "Topic",
-                                                "name": "SARIMA"
-                                            }
-                                        ],
-                                        "name": "Statistical"
-                                    },
-                                    {
-                                        "category": "Sub-subject",
-                                        "children": [
-                                            {
-                                                "category": "Topic",
-                                                "name": "Linear models"
-                                            },
-                                            {
-                                                "category": "Topic",
-                                                "name": "Nearest Neigbours"
-                                            },
-                                            {
-                                                "category": "Topic",
-                                                "name": "Kernalization"
-                                            },
-                                            {
-                                                "category": "Topic",
-                                                "name": "Desision trees"
-                                            },
-                                            {
-                                                "category": "Topic",
-                                                "name": "Baysian learning"
-                                            },
-                                            {
-                                                "category": "Topic",
-                                                "name": "Ensable methods"
-                                            }
-                                        ],
-                                        "name": "Classical"
-                                    },
-                                    {
-                                        "category": "Sub-subject",
-                                        "children": [
-                                            {
-                                                "category": "Topic",
-                                                "name": "Transfer learning"
-                                            },
-                                            {
-                                                "category": "Topic",
-                                                "name": "Early stopping"
-                                            }
-                                        ],
-                                        "name": "Other"
-                                    }
-                                ],
-                                "name": "Machine learning methods"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Tools and libraries"
-                            }
-                        ],
-                        "name": "Machine Learning"
-                    },
-                    {
-                        "category": "top_level",
-                        "children": [
-                            {
-                                "category": "Subject",
-                                "name": "Data Exploration"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Data Cleaning"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Feature engineering"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "AI pitfalls"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Tools and libraries"
-                            }
-                        ],
-                        "name": "Data Engineering"
-                    },
-                    {
-                        "category": "top_level",
-                        "children": [
-                            {
-                                "category": "Subject",
-                                "children": [
-                                    {
-                                        "category": "Topic",
-                                        "name": "Perceptron"
-                                    },
-                                    {
-                                        "category": "Topic",
-                                        "name": "Layers"
-                                    },
-                                    {
-                                        "category": "Topic",
-                                        "name": "Backpropagation"
-                                    },
-                                    {
-                                        "category": "Topic",
-                                        "name": "Gradien Descent"
-                                    },
-                                    {
-                                        "category": "Topic",
-                                        "name": "Activation functions"
-                                    },
-                                    {
-                                        "category": "Topic",
-                                        "name": "Loss functions"
-                                    }
-                                ],
-                                "name": "Neural Networks"
-                            },
-                            {
-                                "category": "Subject",
-                                "children": [
-                                    {
-                                        "category": "Topic",
-                                        "name": "Multilayer perceptrons"
-                                    },
-                                    {
-                                        "category": "Topic",
-                                        "name": "Convolutional Neural Networks"
-                                    },
-                                    {
-                                        "category": "Topic",
-                                        "name": "Recurrent Neural Networks"
-                                    }
-                                ],
-                                "name": "Layer types"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Regularization"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Relevant technologies"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Tools and libraries"
-                            }
-                        ],
-                        "name": "Deep Learning"
-                    },
-                    {
-                        "category": "top_level",
-                        "children": [
-                            {
-                                "category": "Subject",
-                                "name": "Classification metrics"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Regression metrics"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Cluster metrics"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Feature impportance"
-                            }
-                        ],
-                        "name": "Model evaluation"
-                    },
-                    {
-                        "category": "top_level",
-                        "children": [
-                            {
-                                "category": "Subject",
-                                "children": [
-                                    {
-                                        "category": "Topic",
-                                        "name": "Overfitting"
-                                    },
-                                    {
-                                        "category": "Topic",
-                                        "name": "Cross validation"
-                                    },
-                                    {
-                                        "category": "Topic",
-                                        "name": "Hyperparameter optimization"
-                                    }
-                                ],
-                                "name": "Training challenges"
-                            },
-                            {
-                                "category": "Subject",
-                                "children": [
-                                    {
-                                        "category": "Topic",
-                                        "name": "Training acceleration"
-                                    },
-                                    {
-                                        "category": "Topic",
-                                        "name": "Transfer learning"
-                                    }
-                                ],
-                                "name": "Training hacks"
-                            }
-                        ],
-                        "name": "Training in pracktice"
-                    }
-                ],
-                "name": "Core"
-            },
-            {
-                "category": "category",
-                "children": [
-                    {
-                        "category": "top_level",
-                        "children": [
-                            {
-                                "category": "Subject",
-                                "name": "Frequency bias"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Unethical features"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Privacy"
-                            }
-                        ],
-                        "name": "AI ethics"
-                    },
-                    {
-                        "category": "top_level",
-                        "children": [
-                            {
-                                "category": "Subject",
-                                "name": "Data storage"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Data processing"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Data security"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Cloud technologies"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Industry standards"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Systems"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Scale computing"
-                            }
-                        ],
-                        "name": "AI in production"
-                    },
-                    {
-                        "category": "top_level",
-                        "children": [
-                            {
-                                "category": "Topic",
-                                "name": "Containerization"
-                            },
-                            {
-                                "category": "Topic",
-                                "name": "Orchistration"
-                            },
-                            {
-                                "category": "Topic",
-                                "name": "Software testing"
-                            },
-                            {
-                                "category": "Topic",
-                                "name": "CI/CD"
-                            }
-                        ],
-                        "name": "DevOps"
-                    },
-                    {
-                        "category": "top_level",
-                        "children": [
-                            {
-                                "category": "Topic",
-                                "name": "Data versioning"
-                            },
-                            {
-                                "category": "Topic",
-                                "name": "Model retraining"
-                            },
-                            {
-                                "category": "Topic",
-                                "name": "Model testing and validation"
-                            },
-                            {
-                                "category": "Topic",
-                                "name": "Monitroing"
-                            }
-                        ],
-                        "name": "MLOps"
-                    },
-                    {
-                        "category": "top_level",
-                        "children": [
-                            {
-                                "category": "Subject",
-                                "name": "RL IRL"
-                            }
-                        ],
-                        "name": "Trasfering models to the real world"
-                    }
-                ],
-                "name": "Practice"
-            },
-            {
-                "category": "category",
-                "children": [
-                    {
-                        "category": "top_level",
-                        "children": [
-                            {
-                                "category": "Subject",
-                                "name": "Deep Reinforcement Learning"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "NLP"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Generative Adveserial Networks"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Transformers"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Few shot learning"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "AutoML"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Meta Learning"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Metric Learning"
-                            }
-                        ],
-                        "name": "Advanced Methods"
-                    },
-                    {
-                        "category": "top_level",
-                        "children": [
-                            {
-                                "category": "Subject",
-                                "children": [
-                                    {
-                                        "category": "Topic",
-                                        "name": "Cryptography"
-                                    },
-                                    {
-                                        "category": "Topic",
-                                        "name": "Differential Privacy"
-                                    },
-                                    {
-                                        "category": "Topic",
-                                        "name": "Federated Learning"
-                                    }
-                                ],
-                                "name": "Privacy"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Edge computing"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Signal processing"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Robotics"
-                            },
-                            {
-                                "category": "Subject",
-                                "name": "Neuromorphic computing"
-                            }
-                        ],
-                        "name": "Domain Topics"
-                    }
-                ],
-                "name": "Advanced"
-            }
-        ],
-        "name": "AI"
-    }
-]
+{
+    "category": "root",
+    "children": [
+        {
+            "category": "category",
+            "children": [
+                {
+                    "category": "top_level",
+                    "children": [
+                        {
+                            "category": "Subject",
+                            "name": "Statistics",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Calculus",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Linear Algebra",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Information Theory",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Data Structures",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Algorithms",
+                            "size": 3938
+                        }
+                    ],
+                    "name": "Background"
+                },
+                {
+                    "category": "top_level",
+                    "children": [
+                        {
+                            "category": "Subject",
+                            "name": "Programming basics",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "children": [
+                                {
+                                    "category": "Topic",
+                                    "name": "IDEs",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Types",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Functions",
+                                    "size": 3938
+                                }
+                            ],
+                            "name": "Programming in Python"
+                        },
+                        {
+                            "category": "Subject",
+                            "children": [
+                                {
+                                    "category": "Topic",
+                                    "name": "Numpy",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Pandas",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Scipy",
+                                    "size": 3938
+                                }
+                            ],
+                            "name": "Python for Data Science"
+                        },
+                        {
+                            "category": "Subject",
+                            "children": [
+                                {
+                                    "category": "Topic",
+                                    "name": "Git",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "SSH",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Virtual environments",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Linux",
+                                    "size": 3938
+                                }
+                            ],
+                            "name": "Developer basics"
+                        },
+                        {
+                            "category": "Subject",
+                            "children": [
+                                {
+                                    "category": "Topic",
+                                    "name": "R",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Julia",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Java",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Matlab",
+                                    "size": 3938
+                                }
+                            ],
+                            "name": "Alternative DS languages"
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Advanced programming methods",
+                            "size": 3938
+                        }
+                    ],
+                    "name": "Programming"
+                }
+            ],
+            "name": "Basis"
+        },
+        {
+            "category": "category",
+            "children": [
+                {
+                    "category": "top_level",
+                    "children": [
+                        {
+                            "category": "Subject",
+                            "children": [
+                                {
+                                    "category": "Topic",
+                                    "name": "Classification",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Regression",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Clustering",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Sub-subject",
+                                    "children": [
+                                        {
+                                            "category": "Topic",
+                                            "name": "Dimensionality reduction",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Anomaly detection",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Reinforcement learning",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Sequence to Sequence modeling",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Forecasting",
+                                            "size": 3938
+                                        }
+                                    ],
+                                    "name": "Specialized"
+                                }
+                            ],
+                            "name": "Machine Learning problems"
+                        },
+                        {
+                            "category": "Subject",
+                            "children": [
+                                {
+                                    "category": "Sub-subject",
+                                    "children": [
+                                        {
+                                            "category": "Topic",
+                                            "name": "Curve fitting",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "ANOVA",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Moving Average",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "SARIMA",
+                                            "size": 3938
+                                        }
+                                    ],
+                                    "name": "Statistical"
+                                },
+                                {
+                                    "category": "Sub-subject",
+                                    "children": [
+                                        {
+                                            "category": "Topic",
+                                            "name": "Linear models",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Nearest Neigbours",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Kernalization",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Desision trees",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Baysian learning",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Ensable methods",
+                                            "size": 3938
+                                        }
+                                    ],
+                                    "name": "Classical"
+                                },
+                                {
+                                    "category": "Sub-subject",
+                                    "children": [
+                                        {
+                                            "category": "Topic",
+                                            "name": "Transfer learning",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Early stopping",
+                                            "size": 3938
+                                        }
+                                    ],
+                                    "name": "Other"
+                                }
+                            ],
+                            "name": "Machine learning methods"
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Tools and libraries",
+                            "size": 3938
+                        }
+                    ],
+                    "name": "Machine Learning"
+                },
+                {
+                    "category": "top_level",
+                    "children": [
+                        {
+                            "category": "Subject",
+                            "name": "Data Exploration",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Data Cleaning",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Feature engineering",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "AI pitfalls",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Tools and libraries",
+                            "size": 3938
+                        }
+                    ],
+                    "name": "Data Engineering"
+                },
+                {
+                    "category": "top_level",
+                    "children": [
+                        {
+                            "category": "Subject",
+                            "children": [
+                                {
+                                    "category": "Topic",
+                                    "name": "Perceptron",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Layers",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Backpropagation",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Gradien Descent",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Activation functions",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Loss functions",
+                                    "size": 3938
+                                }
+                            ],
+                            "name": "Neural Networks"
+                        },
+                        {
+                            "category": "Subject",
+                            "children": [
+                                {
+                                    "category": "Topic",
+                                    "name": "Multilayer perceptrons",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Convolutional Neural Networks",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Recurrent Neural Networks",
+                                    "size": 3938
+                                }
+                            ],
+                            "name": "Layer types"
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Regularization",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Relevant technologies",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Tools and libraries",
+                            "size": 3938
+                        }
+                    ],
+                    "name": "Deep Learning"
+                },
+                {
+                    "category": "top_level",
+                    "children": [
+                        {
+                            "category": "Subject",
+                            "name": "Classification metrics",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Regression metrics",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Cluster metrics",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Feature impportance",
+                            "size": 3938
+                        }
+                    ],
+                    "name": "Model evaluation"
+                },
+                {
+                    "category": "top_level",
+                    "children": [
+                        {
+                            "category": "Subject",
+                            "children": [
+                                {
+                                    "category": "Topic",
+                                    "name": "Overfitting",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Cross validation",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Hyperparameter optimization",
+                                    "size": 3938
+                                }
+                            ],
+                            "name": "Training challenges"
+                        },
+                        {
+                            "category": "Subject",
+                            "children": [
+                                {
+                                    "category": "Topic",
+                                    "name": "Training acceleration",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Transfer learning",
+                                    "size": 3938
+                                }
+                            ],
+                            "name": "Training hacks"
+                        }
+                    ],
+                    "name": "Training in pracktice"
+                }
+            ],
+            "name": "Core"
+        },
+        {
+            "category": "category",
+            "children": [
+                {
+                    "category": "top_level",
+                    "children": [
+                        {
+                            "category": "Subject",
+                            "name": "Frequency bias",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Unethical features",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Privacy",
+                            "size": 3938
+                        }
+                    ],
+                    "name": "AI ethics"
+                },
+                {
+                    "category": "top_level",
+                    "children": [
+                        {
+                            "category": "Subject",
+                            "name": "Data storage",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Data processing",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Data security",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Cloud technologies",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Industry standards",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Systems",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Scale computing",
+                            "size": 3938
+                        }
+                    ],
+                    "name": "AI in production"
+                },
+                {
+                    "category": "top_level",
+                    "children": [
+                        {
+                            "category": "Topic",
+                            "name": "Containerization",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Topic",
+                            "name": "Orchistration",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Topic",
+                            "name": "Software testing",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Topic",
+                            "name": "CI/CD",
+                            "size": 3938
+                        }
+                    ],
+                    "name": "DevOps"
+                },
+                {
+                    "category": "top_level",
+                    "children": [
+                        {
+                            "category": "Topic",
+                            "name": "Data versioning",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Topic",
+                            "name": "Model retraining",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Topic",
+                            "name": "Model testing and validation",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Topic",
+                            "name": "Monitroing",
+                            "size": 3938
+                        }
+                    ],
+                    "name": "MLOps"
+                },
+                {
+                    "category": "top_level",
+                    "children": [
+                        {
+                            "category": "Subject",
+                            "name": "RL IRL",
+                            "size": 3938
+                        }
+                    ],
+                    "name": "Trasfering models to the real world"
+                }
+            ],
+            "name": "Practice"
+        },
+        {
+            "category": "category",
+            "children": [
+                {
+                    "category": "top_level",
+                    "children": [
+                        {
+                            "category": "Subject",
+                            "name": "Deep Reinforcement Learning",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "NLP",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Generative Adveserial Networks",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Transformers",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Few shot learning",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "AutoML",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Meta Learning",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Metric Learning",
+                            "size": 3938
+                        }
+                    ],
+                    "name": "Advanced Methods"
+                },
+                {
+                    "category": "top_level",
+                    "children": [
+                        {
+                            "category": "Subject",
+                            "children": [
+                                {
+                                    "category": "Topic",
+                                    "name": "Cryptography",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Differential Privacy",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Federated Learning",
+                                    "size": 3938
+                                }
+                            ],
+                            "name": "Privacy"
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Edge computing",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Signal processing",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Robotics",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Neuromorphic computing",
+                            "size": 3938
+                        }
+                    ],
+                    "name": "Domain Topics"
+                }
+            ],
+            "name": "Advanced"
+        }
+    ],
+    "name": "AI"
+}
