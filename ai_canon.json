@@ -5,8 +5,6 @@
             "Basis": {
                 "category": "category",
                 "children": {
-            
-    
                     "Background": {
                         "category": "top_level",
                         "children": {
@@ -134,7 +132,6 @@
                         "children": {
                             "Neural Networks": {
                                 "category": "Subject",
-                                "prerec": [uuids],
                                 "children": {
                                     "Perceptron": {"category": "Topic"},
                                     "Layers": {"category": "Topic"},
@@ -163,7 +160,8 @@
                             "Classification metrics": {"category": "Subject"},
                             "Regression metrics": {"category": "Subject"},
                             "Cluster metrics": {"category": "Subject"},
-                            "Feature impportance": {"category": "Subject"}
+                            "Feature impportance": {"category": "Subject"},
+                            "Visualization": {"category": "Subject"}
                         }
                     },
                     "Training in practice": {
@@ -175,7 +173,8 @@
                                     "Overfitting": {"category": "Topic"},
                                     "Cross validation": {"category": "Topic"},
                                     "Hyperparameter optimization": {"category": "Topic"},
-                                    "Data generators"
+                                    "Data streams": {"category": "Topic"},
+                                    "Large datasets": {"category": "Topic"}
                                 }
                             },
                             "Training hacks": {
@@ -183,11 +182,17 @@
                                 "children": {
                                     "Training acceleration": {"category": "Topic"},
                                     "Transfer learning": {"category": "Topic"},
-                                    "Data Augmentation"
+                                    "Data Augmentation": {"category": "Topic"},
+                                    "ETL pipelines": {"category": "Topic"}
+                                }
+                            },
+                            "ML experimentation": {
+                                "category": "Subject",
+                                "children": {
+                                    "Experiment tracking": {"category": "Topic"},
+                                    "Dataset versioning": {"category": "Topic"}
                                 }
                             }
-                            "Data model experiment versioning": {
-                            },
                         }
                     }
                 }
@@ -209,13 +214,42 @@
                         "children": {
                             "Data storage": {"category": "Subject"},
                             "Data processing": {"category": "Subject"},
+                            "Data flow managment": {"category": "Subject"},
                             "Data security": {"category": "Subject"},
+                            "Model serving": {"category": "Subject"},
                             "Cloud technologies": {"category": "Subject"},
                             "Industry standards": {"category": "Subject"},
-                            "Systems": {"category": "Subject"},
-                            "Scale computing": {"category": "Subject"}
-                            "Inferance optimization (model pruning)"
+                            "Scale computing": {"category": "Subject"},
+                            "Inferance optimization": {
+                                "category": "Subject",
+                                "children": {
+                                    "Model pruning": {"category": "Topic"},
+                                    "Model compilation": {"category": "Topic"},
+                                    "GPU acceleration": {"category": "Topic"},
+                                    "Knowledge distillation": {"category": "Topic"}
+                                }
+                            }
                         }
+                    },
+                    "Model explainability": {
+                        "category": "top_level",
+                        "children": {
+                            "Data Recording": {"category": "Subject"},
+                            "Data Labeling": {"category": "Subject"},
+                            "Data quality": {"category": "Subject"},
+                            "Data generation": {"category": "Subject"}
+                        }
+                    
+                    },
+                    "Data Collection": {
+                        "category": "top_level",
+                        "children": {
+                            "Data Recording": {"category": "Subject"},
+                            "Data Labeling": {"category": "Subject"},
+                            "Data quality": {"category": "Subject"},
+                            "Data generation": {"category": "Subject"}
+                        }
+                    
                     },
                     "DevOps": {
                         "category": "top_level",
@@ -231,6 +265,7 @@
                         "children": {
                             "Data versioning": {"category": "Topic"},
                             "Model retraining": {"category": "Topic"},
+                            "Model managment": {"category": "Topic"},
                             "Model testing and validation": {"category": "Topic"},
                             "Monitroing": {"category": "Topic"}
                         }
@@ -239,7 +274,7 @@
                         "category": "top_level",
                         "children": {
                             "RL IRL": {"category": "Subject"},
-                            "Model drift"
+                            "Model drift": {"category": "Subject"}
                         }
                     }
                 }
@@ -247,7 +282,7 @@
             "Advanced": {
                 "category": "category",
                 "children": {
-                    "Advanced Methods": {
+                    "Advanced ML Methods": {
                         "category": "top_level",
                         "children": {
                             "Deep Reinforcement Learning": {"category": "Subject"},
@@ -258,7 +293,7 @@
                             "AutoML": {"category": "Subject"}, 
                             "Meta Learning": {"category": "Subject"}, 
                             "Metric Learning": {"category": "Subject"},
-                            "End to end Learning"
+                            "End to end Learning": {"category": "Subject"}
                         }
                     },
                     "Domain Topics": {

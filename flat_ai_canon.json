@@ -260,7 +260,7 @@
                                         },
                                         {
                                             "category": "Topic",
-                                            "name": "Desision trees",
+                                            "name": "Decision trees",
                                             "size": 3938
                                         },
                                         {
@@ -434,6 +434,11 @@
                             "category": "Subject",
                             "name": "Feature impportance",
                             "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Visualization",
+                            "size": 3938
                         }
                     ],
                     "name": "Model evaluation"
@@ -458,6 +463,16 @@
                                     "category": "Topic",
                                     "name": "Hyperparameter optimization",
                                     "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Data streams",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Large datasets",
+                                    "size": 3938
                                 }
                             ],
                             "name": "Training challenges"
@@ -474,12 +489,38 @@
                                     "category": "Topic",
                                     "name": "Transfer learning",
                                     "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Data Augmentation",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "ETL pipelines",
+                                    "size": 3938
                                 }
                             ],
                             "name": "Training hacks"
+                        },
+                        {
+                            "category": "Subject",
+                            "children": [
+                                {
+                                    "category": "Topic",
+                                    "name": "Experiment tracking",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Dataset versioning",
+                                    "size": 3938
+                                }
+                            ],
+                            "name": "ML experimentation"
                         }
                     ],
-                    "name": "Training in pracktice"
+                    "name": "Training in practice"
                 }
             ],
             "name": "Core"
@@ -523,7 +564,17 @@
                         },
                         {
                             "category": "Subject",
+                            "name": "Data flow managment",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
                             "name": "Data security",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Model serving",
                             "size": 3938
                         },
                         {
@@ -538,16 +589,89 @@
                         },
                         {
                             "category": "Subject",
-                            "name": "Systems",
+                            "name": "Scale computing",
                             "size": 3938
                         },
                         {
                             "category": "Subject",
-                            "name": "Scale computing",
-                            "size": 3938
+                            "children": [
+                                {
+                                    "category": "Topic",
+                                    "name": "Model pruning",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Model compilation",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "GPU acceleration",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Knowledge distillation",
+                                    "size": 3938
+                                }
+                            ],
+                            "name": "Inferance optimization"
                         }
                     ],
                     "name": "AI in production"
+                },
+                {
+                    "category": "top_level",
+                    "children": [
+                        {
+                            "category": "Subject",
+                            "name": "Data Recording",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Data Labeling",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Data quality",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Data generation",
+                            "size": 3938
+                        }
+                    ],
+                    "name": "Model explainability"
+                },
+                {
+                    "category": "top_level",
+                    "children": [
+                        {
+                            "category": "Subject",
+                            "name": "Data Recording",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Data Labeling",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Data quality",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Data generation",
+                            "size": 3938
+                        }
+                    ],
+                    "name": "Data Collection"
                 },
                 {
                     "category": "top_level",
@@ -590,6 +714,11 @@
                         },
                         {
                             "category": "Topic",
+                            "name": "Model managment",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Topic",
                             "name": "Model testing and validation",
                             "size": 3938
                         },
@@ -607,6 +736,11 @@
                         {
                             "category": "Subject",
                             "name": "RL IRL",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Model drift",
                             "size": 3938
                         }
                     ],
@@ -660,9 +794,14 @@
                             "category": "Subject",
                             "name": "Metric Learning",
                             "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "End to end Learning",
+                            "size": 3938
                         }
                     ],
-                    "name": "Advanced Methods"
+                    "name": "Advanced ML Methods"
                 },
                 {
                     "category": "top_level",
