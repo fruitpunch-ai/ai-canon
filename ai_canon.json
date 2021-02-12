@@ -134,6 +134,7 @@
                         "children": {
                             "Neural Networks": {
                                 "category": "Subject",
+                                "prerec": [uuids],
                                 "children": {
                                     "Perceptron": {"category": "Topic"},
                                     "Layers": {"category": "Topic"},
@@ -237,7 +238,7 @@
                     "Trasfering models to the real world": {
                         "category": "top_level",
                         "children": {
-                            "RL IRL": {"category": "Subject"}
+                            "RL IRL": {"category": "Subject"},
                             "Model drift"
                         }
                     }
@@ -256,7 +257,8 @@
                             "Few shot learning": {"category": "Subject"}, 
                             "AutoML": {"category": "Subject"}, 
                             "Meta Learning": {"category": "Subject"}, 
-                            "Metric Learning": {"category": "Subject"} 
+                            "Metric Learning": {"category": "Subject"},
+                            "End to end Learning"
                         }
                     },
                     "Domain Topics": {
