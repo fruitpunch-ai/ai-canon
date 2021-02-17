@@ -160,145 +160,162 @@
                     "category": "top_level",
                     "children": [
                         {
-                            "category": "Subject",
+                            "category": "level",
+                            "children": [
+                                {
+                                    "category": "Subject",
+                                    "children": [
+                                        {
+                                            "category": "Topic",
+                                            "name": "Classification",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Regression",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Clustering",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Sub-subject",
+                                            "children": [
+                                                {
+                                                    "category": "Topic",
+                                                    "name": "Dimensionality reduction",
+                                                    "size": 3938
+                                                },
+                                                {
+                                                    "category": "Topic",
+                                                    "name": "Anomaly detection",
+                                                    "size": 3938
+                                                },
+                                                {
+                                                    "category": "Topic",
+                                                    "name": "Reinforcement learning",
+                                                    "size": 3938
+                                                },
+                                                {
+                                                    "category": "Topic",
+                                                    "name": "Sequence to Sequence modeling",
+                                                    "size": 3938
+                                                },
+                                                {
+                                                    "category": "Topic",
+                                                    "name": "Forecasting",
+                                                    "size": 3938
+                                                }
+                                            ],
+                                            "name": "Sub-problems"
+                                        }
+                                    ],
+                                    "name": "Machine Learning problems"
+                                }
+                            ],
+                            "name": "ML basic concepts"
+                        },
+                        {
+                            "category": "level",
                             "children": [
                                 {
                                     "category": "Topic",
-                                    "name": "Classification",
+                                    "name": "Linear regression",
                                     "size": 3938
                                 },
                                 {
                                     "category": "Topic",
-                                    "name": "Regression",
+                                    "name": "Nearest Neigbours",
                                     "size": 3938
                                 },
                                 {
                                     "category": "Topic",
-                                    "name": "Clustering",
+                                    "name": "RandomForest",
                                     "size": 3938
                                 },
                                 {
-                                    "category": "Sub-subject",
-                                    "children": [
-                                        {
-                                            "category": "Topic",
-                                            "name": "Dimensionality reduction",
-                                            "size": 3938
-                                        },
-                                        {
-                                            "category": "Topic",
-                                            "name": "Anomaly detection",
-                                            "size": 3938
-                                        },
-                                        {
-                                            "category": "Topic",
-                                            "name": "Reinforcement learning",
-                                            "size": 3938
-                                        },
-                                        {
-                                            "category": "Topic",
-                                            "name": "Sequence to Sequence modeling",
-                                            "size": 3938
-                                        },
-                                        {
-                                            "category": "Topic",
-                                            "name": "Forecasting",
-                                            "size": 3938
-                                        }
-                                    ],
-                                    "name": "Specialized"
+                                    "category": "Topic",
+                                    "name": "Support Vector Machine",
+                                    "size": 3938
                                 }
                             ],
-                            "name": "Machine Learning problems"
+                            "name": "ML quick application"
                         },
                         {
-                            "category": "Subject",
+                            "category": "level",
                             "children": [
                                 {
-                                    "category": "Sub-subject",
+                                    "category": "Subject",
                                     "children": [
                                         {
-                                            "category": "Topic",
-                                            "name": "Curve fitting",
-                                            "size": 3938
+                                            "category": "Sub-subject",
+                                            "children": [
+                                                {
+                                                    "category": "Topic",
+                                                    "name": "Curve fitting",
+                                                    "size": 3938
+                                                },
+                                                {
+                                                    "category": "Topic",
+                                                    "name": "ANOVA",
+                                                    "size": 3938
+                                                },
+                                                {
+                                                    "category": "Topic",
+                                                    "name": "Moving Average",
+                                                    "size": 3938
+                                                },
+                                                {
+                                                    "category": "Topic",
+                                                    "name": "SARIMA",
+                                                    "size": 3938
+                                                }
+                                            ],
+                                            "name": "Statistical"
                                         },
                                         {
-                                            "category": "Topic",
-                                            "name": "ANOVA",
-                                            "size": 3938
-                                        },
-                                        {
-                                            "category": "Topic",
-                                            "name": "Moving Average",
-                                            "size": 3938
-                                        },
-                                        {
-                                            "category": "Topic",
-                                            "name": "SARIMA",
-                                            "size": 3938
+                                            "category": "Sub-subject",
+                                            "children": [
+                                                {
+                                                    "category": "Topic",
+                                                    "name": "Linear models",
+                                                    "size": 3938
+                                                },
+                                                {
+                                                    "category": "Topic",
+                                                    "name": "Nearest Neigbours",
+                                                    "size": 3938
+                                                },
+                                                {
+                                                    "category": "Topic",
+                                                    "name": "Kernalization",
+                                                    "size": 3938
+                                                },
+                                                {
+                                                    "category": "Topic",
+                                                    "name": "Decision trees",
+                                                    "size": 3938
+                                                },
+                                                {
+                                                    "category": "Topic",
+                                                    "name": "Baysian learning",
+                                                    "size": 3938
+                                                },
+                                                {
+                                                    "category": "Topic",
+                                                    "name": "Ensable methods",
+                                                    "size": 3938
+                                                }
+                                            ],
+                                            "name": "Classical"
                                         }
                                     ],
-                                    "name": "Statistical"
-                                },
-                                {
-                                    "category": "Sub-subject",
-                                    "children": [
-                                        {
-                                            "category": "Topic",
-                                            "name": "Linear models",
-                                            "size": 3938
-                                        },
-                                        {
-                                            "category": "Topic",
-                                            "name": "Nearest Neigbours",
-                                            "size": 3938
-                                        },
-                                        {
-                                            "category": "Topic",
-                                            "name": "Kernalization",
-                                            "size": 3938
-                                        },
-                                        {
-                                            "category": "Topic",
-                                            "name": "Decision trees",
-                                            "size": 3938
-                                        },
-                                        {
-                                            "category": "Topic",
-                                            "name": "Baysian learning",
-                                            "size": 3938
-                                        },
-                                        {
-                                            "category": "Topic",
-                                            "name": "Ensable methods",
-                                            "size": 3938
-                                        }
-                                    ],
-                                    "name": "Classical"
-                                },
-                                {
-                                    "category": "Sub-subject",
-                                    "children": [
-                                        {
-                                            "category": "Topic",
-                                            "name": "Transfer learning",
-                                            "size": 3938
-                                        },
-                                        {
-                                            "category": "Topic",
-                                            "name": "Early stopping",
-                                            "size": 3938
-                                        }
-                                    ],
-                                    "name": "Other"
+                                    "name": "Machine learning methods"
                                 }
                             ],
-                            "name": "Machine learning methods"
-                        },
-                        {
-                            "category": "Subject",
-                            "name": "Tools and libraries",
-                            "size": 3938
+                            "name": "ML thourough understanding"
                         }
                     ],
                     "name": "Machine Learning"
@@ -338,76 +355,141 @@
                     "category": "top_level",
                     "children": [
                         {
-                            "category": "Subject",
+                            "category": "level",
                             "children": [
                                 {
                                     "category": "Topic",
-                                    "name": "Perceptron",
+                                    "name": "Neural Networks",
                                     "size": 3938
                                 },
                                 {
                                     "category": "Topic",
-                                    "name": "Layers",
-                                    "size": 3938
-                                },
-                                {
-                                    "category": "Topic",
-                                    "name": "Backpropagation",
-                                    "size": 3938
-                                },
-                                {
-                                    "category": "Topic",
-                                    "name": "Gradien Descent",
-                                    "size": 3938
-                                },
-                                {
-                                    "category": "Topic",
-                                    "name": "Activation functions",
-                                    "size": 3938
-                                },
-                                {
-                                    "category": "Topic",
-                                    "name": "Loss functions",
+                                    "name": "Connectionism ",
                                     "size": 3938
                                 }
                             ],
-                            "name": "Neural Networks"
+                            "name": "DL basic concepts"
                         },
                         {
-                            "category": "Subject",
+                            "category": "level",
                             "children": [
                                 {
-                                    "category": "Topic",
-                                    "name": "Multilayer perceptrons",
-                                    "size": 3938
-                                },
-                                {
-                                    "category": "Topic",
-                                    "name": "Convolutional Neural Networks",
-                                    "size": 3938
-                                },
-                                {
-                                    "category": "Topic",
-                                    "name": "Recurrent Neural Networks",
-                                    "size": 3938
+                                    "category": "Subject",
+                                    "children": [
+                                        {
+                                            "category": "Topic",
+                                            "name": "Multilayer perceptrons",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Convolutional Neural Networks",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Recurrent Neural Networks",
+                                            "size": 3938
+                                        }
+                                    ],
+                                    "name": "Common types"
                                 }
                             ],
-                            "name": "Layer types"
+                            "name": "DL quick application"
                         },
                         {
-                            "category": "Subject",
-                            "name": "Regularization",
-                            "size": 3938
-                        },
-                        {
-                            "category": "Subject",
-                            "name": "Relevant technologies",
-                            "size": 3938
-                        },
-                        {
-                            "category": "Subject",
-                            "name": "Tools and libraries",
-                            "size": 3938
+                            "category": "level",
+                            "children": [
+                                {
+                                    "category": "Subject",
+                                    "children": [
+                                        {
+                                            "category": "Topic",
+                                            "name": "Perceptron",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Layers",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Backpropagation",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Gradien Descent",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Activation functions",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Loss functions",
+                                            "size": 3938
+                                        }
+                                    ],
+                                    "name": "Building Blocks"
+                                },
+                                {
+                                    "category": "Subject",
+                                    "children": [
+                                        {
+                                            "category": "Topic",
+                                            "name": "Convolutional",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Recurrent",
+                                            "size": 3938
+                                        }
+                                    ],
+                                    "name": "Layer types"
+                                },
+                                {
+                                    "category": "Subject",
+                                    "children": [
+                                        {
+                                            "category": "Topic",
+                                            "name": "L1 & L2",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Dropout",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Normalization",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Denoizing",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Early stopping",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Data Augmentation",
+                                            "size": 3938
+                                        }
+                                    ],
+                                    "name": "Regularization"
+                                }
+                            ],
+                            "name": "DL thorough understanding"
                         }
                     ],
                     "name": "Deep Learning"
@@ -852,6 +934,11 @@
                 }
             ],
             "name": "Advanced"
+        },
+        {
+            "category": "category",
+            "children": [],
+            "name": "Buisness impact"
         }
     ],
     "name": "AI"

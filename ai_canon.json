@@ -64,57 +64,72 @@
                     "Machine Learning": {
                         "category": "top_level",
                         "children": {
-                            "Machine Learning problems": {
-                                "category": "Subject",
+                            "ML basic concepts": {
+                                "category": "level",
                                 "children": {
-                                    "Classification": {"category": "Topic"},
-                                    "Regression": {"category": "Topic"},
-                                    "Clustering": {"category": "Topic"},
-                                    "Specialized": {
-                                        "category": "Sub-subject",
+                                    "Machine Learning problems": {
+                                        "category": "Subject",
                                         "children": {
-                                            "Dimensionality reduction": {"category": "Topic"},
-                                            "Anomaly detection": {"category": "Topic"},
-                                            "Reinforcement learning": {"category": "Topic"},
-                                            "Sequence to Sequence modeling": {"category": "Topic"},
-                                            "Forecasting": {"category": "Topic"}
+                                            "Classification": {"category": "Topic"},
+                                            "Regression": {"category": "Topic"},
+                                            "Clustering": {"category": "Topic"},
+                                            "Sub-problems": {
+                                                "category": "Sub-subject",
+                                                "children": {
+                                                    "Dimensionality reduction": {"category": "Topic"},
+                                                    "Anomaly detection": {"category": "Topic"},
+                                                    "Reinforcement learning": {"category": "Topic"},
+                                                    "Sequence to Sequence modeling": {"category": "Topic"},
+                                                    "Forecasting": {"category": "Topic"}
+                                                }
+                                            }
                                         }
                                     }
                                 }
+
                             },
-                            "Machine learning methods": {
-                                "category": "Subject",
+                            "ML quick application": {
+                                "category": "level",
                                 "children": {
-                                    "Statistical": {
-                                        "category": "Sub-subject",
+                                    "Linear regression": {"category": "Topic"},
+                                    "Nearest Neigbours": {"category": "Topic"},
+                                    "RandomForest": {"category": "Topic"},
+                                    "Support Vector Machine": {"category": "Topic"}
+                                }
+                                
+                            },
+                            "ML thourough understanding": {
+                                "category": "level",
+                                "children": {
+                                    "Machine learning methods": {
+                                        "category": "Subject",
                                         "children": {
-                                            "Curve fitting": {"category": "Topic"},
-                                            "ANOVA": {"category": "Topic"},
-                                            "Moving Average": {"category": "Topic"},
-                                            "SARIMA": {"category": "Topic"}
-                                        }
-                                    },
-                                    "Classical": {
-                                        "category": "Sub-subject",
-                                        "children": {
-                                            "Linear models": {"category": "Topic"},
-                                            "Nearest Neigbours": {"category": "Topic"},
-                                            "Kernalization": {"category": "Topic"},
-                                            "Decision trees": {"category": "Topic"},
-                                            "Baysian learning": {"category": "Topic"},
-                                            "Ensable methods": {"category": "Topic"}
-                                        }
-                                    },
-                                    "Other": {
-                                        "category": "Sub-subject",
-                                        "children": {
-                                            "Transfer learning": {"category": "Topic"},
-                                            "Early stopping": {"category": "Topic"}
+                                            "Statistical": {
+                                                "category": "Sub-subject",
+                                                "children": {
+                                                    "Curve fitting": {"category": "Topic"},
+                                                    "ANOVA": {"category": "Topic"},
+                                                    "Moving Average": {"category": "Topic"},
+                                                    "SARIMA": {"category": "Topic"}
+                                                }
+                                            },
+                                            "Classical": {
+                                                "category": "Sub-subject",
+                                                "children": {
+                                                    "Linear models": {"category": "Topic"},
+                                                    "Nearest Neigbours": {"category": "Topic"},
+                                                    "Kernalization": {"category": "Topic"},
+                                                    "Decision trees": {"category": "Topic"},
+                                                    "Baysian learning": {"category": "Topic"},
+                                                    "Ensable methods": {"category": "Topic"}
+                                                }
+                                            }
                                         }
                                     }
                                 }
-                            },
-                            "Tools and libraries": {"category": "Subject"}
+                            
+                            }
+                            
                         }
                     },
                     "Data Engineering": {
@@ -130,28 +145,61 @@
                     "Deep Learning": {
                         "category": "top_level",
                         "children": {
-                            "Neural Networks": {
-                                "category": "Subject",
+                            "DL basic concepts": {
+                                "category": "level",
                                 "children": {
-                                    "Perceptron": {"category": "Topic"},
-                                    "Layers": {"category": "Topic"},
-                                    "Backpropagation": {"category": "Topic"},
-                                    "Gradien Descent": {"category": "Topic"},
-                                    "Activation functions": {"category": "Topic"},
-                                    "Loss functions": {"category": "Topic"}
+                                    "Neural Networks": {"category": "Topic"},
+                                    "Connectionism ": {"category": "Topic"}
                                 }
                             },
-                            "Layer types": {
-                                "category": "Subject",
+                            "DL quick application": {
+                                "category": "level",
                                 "children": {
-                                    "Multilayer perceptrons": {"category": "Topic"},
-                                    "Convolutional Neural Networks": {"category": "Topic"},
-                                    "Recurrent Neural Networks": {"category": "Topic"}
+                                    "Common types": {
+                                        "category": "Subject",
+                                        "children": {
+                                            "Multilayer perceptrons": {"category": "Topic"},
+                                            "Convolutional Neural Networks": {"category": "Topic"},
+                                            "Recurrent Neural Networks": {"category": "Topic"}
+                                        }
+                                    }
                                 }
                             },
-                            "Regularization": {"category": "Subject"},
-                            "Relevant technologies": {"category": "Subject"},
-                            "Tools and libraries": {"category": "Subject"}
+                            "DL thorough understanding": {
+                                "category": "level",
+                                "children": {
+                                    "Building Blocks": {
+                                        "category": "Subject",
+                                        "children": {
+                                            "Perceptron": {"category": "Topic"},
+                                            "Layers": {"category": "Topic"},
+                                            "Backpropagation": {"category": "Topic"},
+                                            "Gradien Descent": {"category": "Topic"},
+                                            "Activation functions": {"category": "Topic"},
+                                            "Loss functions": {"category": "Topic"}
+                                        }
+                                    },
+                                    "Layer types": {
+                                        "category": "Subject",
+                                        "children": {
+                                            "Convolutional": {"category": "Topic"},
+                                            "Recurrent": {"category": "Topic"}
+                                        }
+                                    },
+                                    "Regularization": {
+                                        "category": "Subject",
+                                        "children": {
+                                            "L1 & L2": {"category": "Topic"},
+                                            "Dropout": {"category": "Topic"},
+                                            "Normalization": {"category": "Topic"},
+                                            "Denoizing": {"category": "Topic"},
+                                            "Early stopping": {"category": "Topic"},
+                                            "Data Augmentation": {"category": "Topic"}
+                                        }
+                                    }
+                                }
+                            }
+
                         }
                     },
                     "Model evaluation": {
@@ -313,6 +361,12 @@
                             "Neuromorphic computing": {"category": "Subject"}
                         }
                     }
+                }
+            },
+            "Buisness impact": {
+                "category": "category",
+                "children": {
+
                 }
             }
         }
