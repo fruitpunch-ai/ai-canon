@@ -937,8 +937,19 @@
         },
         {
             "category": "category",
-            "children": [],
-            "name": "Buisness impact"
+            "children": [
+                {
+                    "category": "Subject",
+                    "name": "Suitable AI challenges",
+                    "size": 3938
+                },
+                {
+                    "category": "Subject",
+                    "name": "Common AI failures",
+                    "size": 3938
+                }
+            ],
+            "name": "Business impact"
         }
     ],
     "name": "AI"

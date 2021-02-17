@@ -363,10 +363,11 @@
                     }
                 }
             },
-            "Buisness impact": {
+            "Business impact": {
                 "category": "category",
                 "children": {
-
+                    "Suitable AI challenges": {"category": "Subject"},
+                    "Common AI failures": {"category": "Subject"}
                 }
             }
         }
