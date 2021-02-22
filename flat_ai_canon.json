@@ -335,17 +335,17 @@
                         },
                         {
                             "category": "Subject",
+                            "name": "Fuzzy matching",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
                             "name": "Feature engineering",
                             "size": 3938
                         },
                         {
                             "category": "Subject",
-                            "name": "AI pitfalls",
-                            "size": 3938
-                        },
-                        {
-                            "category": "Subject",
-                            "name": "Tools and libraries",
+                            "name": "Anonymization",
                             "size": 3938
                         }
                     ],
@@ -448,6 +448,11 @@
                                             "category": "Topic",
                                             "name": "Recurrent",
                                             "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Attention",
+                                            "size": 3938
                                         }
                                     ],
                                     "name": "Layer types"
@@ -478,6 +483,11 @@
                                         {
                                             "category": "Topic",
                                             "name": "Early stopping",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Pooling",
                                             "size": 3938
                                         },
                                         {
@@ -521,6 +531,11 @@
                             "category": "Subject",
                             "name": "Visualization",
                             "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Domain expertise",
+                            "size": 3938
                         }
                     ],
                     "name": "Model evaluation"
@@ -534,6 +549,32 @@
                                 {
                                     "category": "Topic",
                                     "name": "Overfitting",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Train test leakage",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Confounding variables",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Faulty data",
+                                    "size": 3938
+                                }
+                            ],
+                            "name": "Common pitfalls"
+                        },
+                        {
+                            "category": "Subject",
+                            "children": [
+                                {
+                                    "category": "Topic",
+                                    "name": "Unbalanced data",
                                     "size": 3938
                                 },
                                 {
@@ -554,6 +595,16 @@
                                 {
                                     "category": "Topic",
                                     "name": "Large datasets",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Data scarcity",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Label scarcity",
                                     "size": 3938
                                 }
                             ],
@@ -602,7 +653,7 @@
                             "name": "ML experimentation"
                         }
                     ],
-                    "name": "Training in practice"
+                    "name": "Training AI"
                 }
             ],
             "name": "Core"
@@ -615,12 +666,17 @@
                     "children": [
                         {
                             "category": "Subject",
+                            "name": "Recording bias",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
                             "name": "Frequency bias",
                             "size": 3938
                         },
                         {
                             "category": "Subject",
-                            "name": "Unethical features",
+                            "name": "Questionable features",
                             "size": 3938
                         },
                         {
@@ -708,26 +764,42 @@
                     "children": [
                         {
                             "category": "Subject",
-                            "name": "Data Recording",
-                            "size": 3938
+                            "children": [
+                                {
+                                    "category": "Topic",
+                                    "name": "Feature Importance",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Partial Dependence Plots",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Accumulated Local Effects Plot",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Individual Conditional Expectation",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Surrogate Models",
+                                    "size": 3938
+                                }
+                            ],
+                            "name": "Model interpretability"
                         },
                         {
                             "category": "Subject",
-                            "name": "Data Labeling",
-                            "size": 3938
-                        },
-                        {
-                            "category": "Subject",
-                            "name": "Data quality",
-                            "size": 3938
-                        },
-                        {
-                            "category": "Subject",
-                            "name": "Data generation",
+                            "name": "Model explainability",
                             "size": 3938
                         }
                     ],
-                    "name": "Model explainability"
+                    "name": "Model understanding"
                 },
                 {
                     "category": "top_level",
@@ -750,6 +822,16 @@
                         {
                             "category": "Subject",
                             "name": "Data generation",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Scraping",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Combining datasets",
                             "size": 3938
                         }
                     ],
@@ -806,7 +888,7 @@
                         },
                         {
                             "category": "Topic",
-                            "name": "Monitroing",
+                            "name": "Monitoring",
                             "size": 3938
                         }
                     ],
@@ -939,17 +1021,100 @@
             "category": "category",
             "children": [
                 {
+                    "category": "top_level",
+                    "children": [
+                        {
+                            "category": "Subject",
+                            "name": "AI",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Algorithms",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Machine Learning",
+                            "size": 3938
+                        }
+                    ],
+                    "name": "Basic understanding"
+                },
+                {
+                    "category": "top_level",
+                    "children": [
+                        {
+                            "category": "Subject",
+                            "name": "Data retrieval",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Structured vs Unstructured",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "name": "Data Collection",
+                            "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "children": [
+                                {
+                                    "category": "Topic",
+                                    "name": "Bogus in Bogus out",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Human error",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Predudice",
+                                    "size": 3938
+                                }
+                            ],
+                            "name": "Biased data"
+                        }
+                    ],
+                    "name": "Data"
+                },
+                {
                     "category": "Subject",
-                    "name": "Suitable AI challenges",
+                    "name": "Suitable problems",
                     "size": 3938
                 },
                 {
                     "category": "Subject",
-                    "name": "Common AI failures",
+                    "name": "AI project pitfalls",
+                    "size": 3938
+                },
+                {
+                    "category": "Subject",
+                    "name": "AI in production",
+                    "size": 3938
+                },
+                {
+                    "category": "Subject",
+                    "name": "AI overeporting",
+                    "size": 3938
+                },
+                {
+                    "category": "Subject",
+                    "name": "Third party AI",
+                    "size": 3938
+                },
+                {
+                    "category": "Subject",
+                    "name": "Future of AI",
                     "size": 3938
                 }
             ],
-            "name": "Business impact"
+            "name": "Business"
         }
     ],
     "name": "AI"
