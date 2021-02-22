@@ -137,9 +137,9 @@
                         "children": {
                             "Data Exploration": {"category": "Subject"},
                             "Data Cleaning": {"category": "Subject"},
+                            "Fuzzy matching": {"category": "Subject"},
                             "Feature engineering": {"category": "Subject"},
-                            "AI pitfalls": {"category": "Subject"},
-                            "Tools and libraries": {"category": "Subject"}
+                            "Anonymization": {"category": "Subject"}
                         }
                     },
                     "Deep Learning": {
@@ -183,7 +183,8 @@
                                         "category": "Subject",
                                         "children": {
                                             "Convolutional": {"category": "Topic"},
-                                            "Recurrent": {"category": "Topic"}
+                                            "Recurrent": {"category": "Topic"},
+                                            "Attention": {"category": "Topic"}
                                         }
                                     },
                                     "Regularization": {
@@ -194,6 +195,7 @@
                                             "Normalization": {"category": "Topic"},
                                             "Denoizing": {"category": "Topic"},
                                             "Early stopping": {"category": "Topic"},
+                                            "Pooling": {"category": "Topic"},
                                             "Data Augmentation": {"category": "Topic"}
                                         }
                                     }
@@ -209,22 +211,35 @@
                             "Regression metrics": {"category": "Subject"},
                             "Cluster metrics": {"category": "Subject"},
                             "Feature impportance": {"category": "Subject"},
-                            "Visualization": {"category": "Subject"}
+                            "Visualization": {"category": "Subject"},
+                            "Domain expertise": {"category": "Subject"}
                         }
                     },
-                    "Training in practice": {
+                    "Training AI": {
                         "category": "top_level",
                         "children": {
-                            "Training challenges": {
+                            "Common pitfalls": {
                                 "category": "Subject",
                                 "children": {
                                     "Overfitting": {"category": "Topic"},
+                                    "Train test leakage": {"category": "Topic"},
+                                    "Confounding variables": {"category": "Topic"},
+                                    "Faulty data": {"category": "Topic"}
+                                }
+                            },
+                            "Training challenges": {
+                                "category": "Subject",
+                                "children": {
+                                    "Unbalanced data": {"category": "Topic"},
                                     "Cross validation": {"category": "Topic"},
                                     "Hyperparameter optimization": {"category": "Topic"},
                                     "Data streams": {"category": "Topic"},
-                                    "Large datasets": {"category": "Topic"}
+                                    "Large datasets": {"category": "Topic"},
+                                    "Data scarcity": {"category": "Topic"},
+                                    "Label scarcity": {"category": "Topic"}
                                 }
                             },
+                            
                             "Training hacks": {
                                 "category": "Subject",
                                 "children": {
@@ -252,8 +267,9 @@
                     "AI ethics": {
                         "category": "top_level",
                         "children": {
+                            "Recording bias": {"category": "Subject"},
                             "Frequency bias": {"category": "Subject"},
-                            "Unethical features": {"category": "Subject"},
+                            "Questionable features": {"category": "Subject"},
                             "Privacy": {"category": "Subject"}
                         }
                     },
@@ -279,13 +295,20 @@
                             }
                         }
                     },
-                    "Model explainability": {
+                    "Model understanding": {
                         "category": "top_level",
                         "children": {
-                            "Data Recording": {"category": "Subject"},
-                            "Data Labeling": {"category": "Subject"},
-                            "Data quality": {"category": "Subject"},
-                            "Data generation": {"category": "Subject"}
+                            "Model interpretability": {
+                                "category": "Subject",
+                                "children": {
+                                    "Feature Importance": {"category": "Topic"},
+                                    "Partial Dependence Plots": {"category": "Topic"},
+                                    "Accumulated Local Effects Plot": {"category": "Topic"},
+                                    "Individual Conditional Expectation": {"category": "Topic"},
+                                    "Surrogate Models": {"category": "Topic"}
+                                }
+                            },
+                            "Model explainability": {"category": "Subject"}
                         }
                     
                     },
@@ -295,7 +318,9 @@
                             "Data Recording": {"category": "Subject"},
                             "Data Labeling": {"category": "Subject"},
                             "Data quality": {"category": "Subject"},
-                            "Data generation": {"category": "Subject"}
+                            "Data generation": {"category": "Subject"},
+                            "Scraping": {"category": "Subject"},
+                            "Combining datasets": {"category": "Subject"}
                         }
                     
                     },
@@ -315,7 +340,7 @@
                             "Model retraining": {"category": "Topic"},
                             "Model managment": {"category": "Topic"},
                             "Model testing and validation": {"category": "Topic"},
-                            "Monitroing": {"category": "Topic"}
+                            "Monitoring": {"category": "Topic"}
                         }
                     },
                     "Trasfering models to the real world": {
@@ -363,11 +388,40 @@
                     }
                 }
             },
-            "Business impact": {
+            "Business": {
                 "category": "category",
                 "children": {
-                    "Suitable AI challenges": {"category": "Subject"},
-                    "Common AI failures": {"category": "Subject"}
+                    "Basic understanding": {
+                        "category": "top_level",
+                        "children": {
+                            "AI": {"category": "Subject"},
+                            "Algorithms": {"category": "Subject"},
+                            "Machine Learning": {"category": "Subject"}
+                        }
+                    },
+                    
+                    "Data": {
+                        "category": "top_level",
+                        "children": {
+                            "Data retrieval": {"category": "Subject"},
+                            "Structured vs Unstructured": {"category": "Subject"},
+                            "Data Collection": {"category": "Subject"},
+                            "Biased data": {
+                                "category": "Subject",
+                                "children": {
+                                    "Bogus in Bogus out": {"category": "Topic"},
+                                    "Human error": {"category": "Topic"},
+                                    "Predudice": {"category": "Topic"}
+                                }
+                            }
+                        }
+                    },
+                    "Suitable problems": {"category": "Subject"},
+                    "AI project pitfalls": {"category": "Subject"},
+                    "AI in production": {"category": "Subject"},
+                    "AI overeporting": {"category": "Subject"},
+                    "Third party AI": {"category": "Subject"},
+                    "Future of AI": {"category": "Subject"}
                 }
             }
         }
