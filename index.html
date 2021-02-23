@@ -7,6 +7,7 @@
   
   <style> 
     body { margin:0;position:fixed;top:0;right:0;bottom:0;left:0;font-family: 'Roboto', sans-serif;}
+    myGraph {max-width: 1190px;}
   </style>
 </head>
  
@@ -17,8 +18,8 @@
   <script>
  d3.json('flat_ai_canon.json', data => {
       networkChart = renderChartCollapsibleNetwork()
-        .svgHeight(window.innerHeight - 30)
-        .svgWidth(window.innerWidth - 30)
+        // .svgHeight(window.innerHeight - 30)
+        // .svgWidth(window.innerWidth - 30)
         .container('#myGraph')
         .data({ root: data })
         .debug(true)
