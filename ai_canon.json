@@ -67,22 +67,21 @@
                             "ML basic concepts": {
                                 "category": "level",
                                 "children": {
+                                    "What is ML": {
+                                        "category": "Subject",
+                                        "children": {
+                                            "Goal": {"category": "Topic"},
+                                            "Data": {"category": "Topic"},
+                                            "Target": {"category": "Topic"},
+                                            "Algorithm": {"category": "Topic"}
+                                        }
+                                    },
                                     "Machine Learning problems": {
                                         "category": "Subject",
                                         "children": {
                                             "Classification": {"category": "Topic"},
                                             "Regression": {"category": "Topic"},
-                                            "Clustering": {"category": "Topic"},
-                                            "Sub-problems": {
-                                                "category": "Sub-subject",
-                                                "children": {
-                                                    "Dimensionality reduction": {"category": "Topic"},
-                                                    "Anomaly detection": {"category": "Topic"},
-                                                    "Reinforcement learning": {"category": "Topic"},
-                                                    "Sequence to Sequence modeling": {"category": "Topic"},
-                                                    "Forecasting": {"category": "Topic"}
-                                                }
-                                            }
+                                            "Clustering": {"category": "Topic"}
                                         }
                                     }
                                 }
@@ -124,6 +123,16 @@
                                                     "Ensable methods": {"category": "Topic"}
                                                 }
                                             }
+                                        }
+                                    },
+                                    "ML Flavours": {
+                                        "category": "Subject",
+                                        "children": {
+                                            "Dimensionality reduction": {"category": "Topic"},
+                                            "Anomaly detection": {"category": "Topic"},
+                                            "Reinforcement learning": {"category": "Topic"},
+                                            "Sequence to Sequence modeling": {"category": "Topic"},
+                                            "Forecasting": {"category": "Topic"}
                                         }
                                     }
                                 }
@@ -212,7 +221,8 @@
                             "Cluster metrics": {"category": "Subject"},
                             "Feature impportance": {"category": "Subject"},
                             "Visualization": {"category": "Subject"},
-                            "Domain expertise": {"category": "Subject"}
+                            "Domain expertise": {"category": "Subject"},
+                            "Generalization": {"category": "Subject"}
                         }
                     },
                     "Training AI": {
