@@ -401,37 +401,117 @@
             "Business": {
                 "category": "category",
                 "children": {
-                    "Basic understanding": {
+                    "Before you start": {
                         "category": "top_level",
                         "children": {
-                            "AI": {"category": "Subject"},
-                            "Algorithms": {"category": "Subject"},
-                            "Machine Learning": {"category": "Subject"}
-                        }
-                    },
-                    
-                    "Data": {
-                        "category": "top_level",
-                        "children": {
-                            "Data retrieval": {"category": "Subject"},
-                            "Structured vs Unstructured": {"category": "Subject"},
-                            "Data Collection": {"category": "Subject"},
-                            "Biased data": {
+                            "Basic understanding": {
                                 "category": "Subject",
                                 "children": {
-                                    "Bogus in Bogus out": {"category": "Topic"},
-                                    "Human error": {"category": "Topic"},
-                                    "Predudice": {"category": "Topic"}
+                                    "AI": {"category": "Subject"},
+                                    "Machine Learning": {"category": "Subject"},
+                                    "Deep Learning": {"category": "Subject"}
+                                }
+                            },
+                            "Data": {
+                                "category": "Subject",
+                                "children": {
+                                    "Data retrieval": {"category": "Subject"},
+                                    "Structured vs Unstructured": {"category": "Subject"},
+                                    "Data Collection": {"category": "Subject"},
+                                    "Data privacy": {"category": "Subject"},
+                                    "Biased data": {
+                                        "category": "Subject",
+                                        "children": {
+                                            "Bogus in Bogus out": {"category": "Topic"},
+                                            "Human error": {"category": "Topic"},
+                                            "Predudice": {"category": "Topic"}
+                                        }
+                                    }
+                                }
+                            },
+                            "AI applicable?": {
+                                "category": "Subject",
+                                "children": {
+                                    "Suitable problems": {"category": "Topic"},
+                                    "Business case": {"category": "Topic"},
+                                    "Make or buy": {"category": "Topic"}
+
+                                }
+                                
+                            }
+                        }
+                    },
+                    "AI execution": {
+                        "category": "top_level",
+                        "children": {
+                            "AI prerequisites": {
+                                "category": "Subject",
+                                "children": {
+                                    "Sufficient data": {"category": "Topic"},
+                                    "Clean data": {"category": "Topic"},
+                                    "Business alignment": {"category": "Topic"},
+                                    "Clear Goal": {"category": "Topic"}
+                                }
+                            },
+                            "AI project pitfalls": {
+                                "category": "Subject",
+                                "children": {
+                                    "Unrealistic expectations": {"category": "Topic"},
+                                    "Accuracy threshold": {"category": "Topic"},
+                                    "Alignment business goals": {"category": "Topic"},
+                                    "Lack quality data": {"category": "Topic"},
+                                    "Misestimation engineering efforts": {"category": "Topic"},
+                                    "Production software lacking": {"category": "Topic"}
+                                }
+                            },
+                            "AI in production": {
+                                "category": "Subject",
+                                "children": {
+                                    "Model understanding": {"category": "Topic"},
+                                    "Cost of mistake": {"category": "Topic"},
+                                    "Experiment vs reality": {"category": "Topic"},
+                                    "GDPR": {"category": "Topic"},
+                                    "Model updates": {"category": "Topic"},
+                                    "MLOps": {"category": "Topic"}
                                 }
                             }
                         }
                     },
-                    "Suitable problems": {"category": "Subject"},
-                    "AI project pitfalls": {"category": "Subject"},
-                    "AI in production": {"category": "Subject"},
-                    "AI overeporting": {"category": "Subject"},
-                    "Third party AI": {"category": "Subject"},
-                    "Future of AI": {"category": "Subject"}
+                    "AI in industry": {
+                        "category": "top_level",
+                        "children": {
+                            "AI maturity": {
+                                "category": "Subject",
+                                "children": {
+                                    "Kick-off": {"category": "Topic"},
+                                    "Data wharehousing": {"category": "Topic"},
+                                    "BI and reporting": {"category": "Topic"},
+                                    "Data-driven buisness": {"category": "Topic"},
+                                    "AI experimentation": {"category": "Topic"},
+                                    "AI in production": {"category": "Topic"},
+                                    "AI business models": {"category": "Topic"}
+                                }
+                            },
+                            "AI overeporting": {
+                                "category": "Subject",
+                                "children": {
+                                    "AI hype": {"category": "Topic"},
+                                    "AI limitations": {"category": "Topic"}, 
+                                    "Reporting experimets": {"category": "Topic"},
+                                    "AI news": {"category": "Topic"}
+                                }
+                            },
+                            "Future of AI": {
+                                "category": "Subject",
+                                "children": {
+                                    "Artifical General Intelligence": {"category": "Topic"},
+                                    "State of the Art": {"category": "Topic"},
+                                    "Third party AI": {"category": "Topic"},
+                                    "AutoML": {"category": "Topic"}
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
