@@ -91,13 +91,13 @@
                                 "category": "level",
                                 "children": {
                                     "Linear regression": {"category": "Topic"},
-                                    "Nearest Neigbours": {"category": "Topic"},
+                                    "Nearest Neighbors": {"category": "Topic"},
                                     "RandomForest": {"category": "Topic"},
                                     "Support Vector Machine": {"category": "Topic"}
                                 }
                                 
                             },
-                            "ML thourough understanding": {
+                            "ML thorough understanding": {
                                 "category": "level",
                                 "children": {
                                     "Machine learning methods": {
@@ -116,11 +116,11 @@
                                                 "category": "Sub-subject",
                                                 "children": {
                                                     "Linear models": {"category": "Topic"},
-                                                    "Nearest Neigbours": {"category": "Topic"},
+                                                    "Nearest Neighbors": {"category": "Topic"},
                                                     "Kernalization": {"category": "Topic"},
                                                     "Decision trees": {"category": "Topic"},
-                                                    "Baysian learning": {"category": "Topic"},
-                                                    "Ensable methods": {"category": "Topic"}
+                                                    "Bayesian learning": {"category": "Topic"},
+                                                    "Ensemble methods": {"category": "Topic"}
                                                 }
                                             }
                                         }
@@ -183,7 +183,7 @@
                                             "Perceptron": {"category": "Topic"},
                                             "Layers": {"category": "Topic"},
                                             "Backpropagation": {"category": "Topic"},
-                                            "Gradien Descent": {"category": "Topic"},
+                                            "Gradient Descent": {"category": "Topic"},
                                             "Activation functions": {"category": "Topic"},
                                             "Loss functions": {"category": "Topic"}
                                         }
@@ -219,7 +219,7 @@
                             "Classification metrics": {"category": "Subject"},
                             "Regression metrics": {"category": "Subject"},
                             "Cluster metrics": {"category": "Subject"},
-                            "Feature impportance": {"category": "Subject"},
+                            "Feature importance": {"category": "Subject"},
                             "Visualization": {"category": "Subject"},
                             "Domain expertise": {"category": "Subject"},
                             "Generalization": {"category": "Subject"}
@@ -288,13 +288,13 @@
                         "children": {
                             "Data storage": {"category": "Subject"},
                             "Data processing": {"category": "Subject"},
-                            "Data flow managment": {"category": "Subject"},
+                            "Data flow management": {"category": "Subject"},
                             "Data security": {"category": "Subject"},
                             "Model serving": {"category": "Subject"},
                             "Cloud technologies": {"category": "Subject"},
                             "Industry standards": {"category": "Subject"},
                             "Scale computing": {"category": "Subject"},
-                            "Inferance optimization": {
+                            "Inference optimization": {
                                 "category": "Subject",
                                 "children": {
                                     "Model pruning": {"category": "Topic"},
@@ -338,7 +338,7 @@
                         "category": "top_level",
                         "children": {
                             "Containerization": {"category": "Topic"},
-                            "Orchistration": {"category": "Topic"},
+                            "Orchestration": {"category": "Topic"},
                             "Software testing": {"category": "Topic"},
                             "CI/CD": {"category": "Topic"}
                         }
@@ -348,7 +348,7 @@
                         "children": {
                             "Data versioning": {"category": "Topic"},
                             "Model retraining": {"category": "Topic"},
-                            "Model managment": {"category": "Topic"},
+                            "Model management": {"category": "Topic"},
                             "Model testing and validation": {"category": "Topic"},
                             "Monitoring": {"category": "Topic"}
                         }
@@ -370,7 +370,7 @@
                         "children": {
                             "Deep Reinforcement Learning": {"category": "Subject"},
                             "NLP": {"category": "Subject"},
-                            "Generative Adveserial Networks": {"category": "Subject"},
+                            "Generative Adversarial Networks": {"category": "Subject"},
                             "Transformers": {"category": "Subject"}, 
                             "Few shot learning": {"category": "Subject"}, 
                             "AutoML": {"category": "Subject"}, 
@@ -424,7 +424,7 @@
                                         "children": {
                                             "Bogus in Bogus out": {"category": "Topic"},
                                             "Human error": {"category": "Topic"},
-                                            "Predudice": {"category": "Topic"}
+                                            "Prejudice": {"category": "Topic"}
                                         }
                                     }
                                 }
@@ -460,7 +460,7 @@
                                     "Accuracy threshold": {"category": "Topic"},
                                     "Alignment business goals": {"category": "Topic"},
                                     "Lack quality data": {"category": "Topic"},
-                                    "Misestimation engineering efforts": {"category": "Topic"},
+                                    "Misestimate engineering efforts": {"category": "Topic"},
                                     "Production software lacking": {"category": "Topic"}
                                 }
                             },
@@ -484,9 +484,9 @@
                                 "category": "Subject",
                                 "children": {
                                     "Kick-off": {"category": "Topic"},
-                                    "Data wharehousing": {"category": "Topic"},
+                                    "Data warehousing": {"category": "Topic"},
                                     "BI and reporting": {"category": "Topic"},
-                                    "Data-driven buisness": {"category": "Topic"},
+                                    "Data-driven business": {"category": "Topic"},
                                     "AI experimentation": {"category": "Topic"},
                                     "AI in production": {"category": "Topic"},
                                     "AI business models": {"category": "Topic"}
@@ -497,17 +497,17 @@
                                 "children": {
                                     "AI hype": {"category": "Topic"},
                                     "AI limitations": {"category": "Topic"}, 
-                                    "Reporting experimets": {"category": "Topic"},
+                                    "Reporting experiments": {"category": "Topic"},
                                     "AI news": {"category": "Topic"}
                                 }
                             },
                             "Future of AI": {
                                 "category": "Subject",
                                 "children": {
-                                    "Artifical General Intelligence": {"category": "Topic"},
                                     "State of the Art": {"category": "Topic"},
                                     "Third party AI": {"category": "Topic"},
-                                    "AutoML": {"category": "Topic"}
+                                    "AutoML": {"category": "Topic"},
+                                    "Artificial General Intelligence": {"category": "Topic"}
                                 }
                             }
                         }
