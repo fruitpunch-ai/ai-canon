@@ -8,52 +8,97 @@
                     "Background": {
                         "category": "top_level",
                         "children": {
-                            "Statistics": {"category": "Subject"},
-                            "Calculus": {"category": "Subject"},
-                            "Linear Algebra": {"category": "Subject"},
-                            "Information Theory": {"category": "Subject"},
-                            "Data Structures": {"category": "Subject"},
-                            "Algorithms": {"category": "Subject"}
-                            
+                            "Statistics": {
+                                "category": "Subject"
+                            },
+                            "Calculus": {
+                                "category": "Subject"
+                            },
+                            "Linear Algebra": {
+                                "category": "Subject"
+                            },
+                            "Information Theory": {
+                                "category": "Subject"
+                            },
+                            "Data Structures": {
+                                "category": "Subject"
+                            },
+                            "Algorithms": {
+                                "category": "Subject"
+                            }
                         }
                     },
                     "Programming": {
                         "category": "top_level",
                         "children": {
-                            "Programming basics": {"category": "Subject"},
-                            "Programming in Python": {"category": "Subject",
+                            "Programming basics": {
+                                "category": "Subject"
+                            },
+                            "Programming in Python": {
+                                "category": "Subject",
                                 "children": {
-                                    "IDEs": {"category": "Topic"},
-                                    "Types": {"category": "Topic"},
-                                    "Functions": {"category": "Topic"}
+                                    "IDEs": {
+                                        "category": "Topic"
+                                    },
+                                    "Types": {
+                                        "category": "Topic"
+                                    },
+                                    "Functions": {
+                                        "category": "Topic"
+                                    }
                                 }
                             },
                             "Python for Data Science": {
                                 "category": "Subject",
                                 "children": {
-                                    "Numpy": {"category": "Topic"},
-                                    "Pandas": {"category": "Topic"},
-                                    "Scipy": {"category": "Topic"}
+                                    "Numpy": {
+                                        "category": "Topic"
+                                    },
+                                    "Pandas": {
+                                        "category": "Topic"
+                                    },
+                                    "Scipy": {
+                                        "category": "Topic"
+                                    }
                                 }
                             },
                             "Developer basics": {
                                 "category": "Subject",
                                 "children": {
-                                    "Git": {"category": "Topic"},
-                                    "SSH": {"category": "Topic"},
-                                    "Virtual environments": {"category": "Topic"},
-                                    "Linux": {"category": "Topic"}
+                                    "Git": {
+                                        "category": "Topic"
+                                    },
+                                    "SSH": {
+                                        "category": "Topic"
+                                    },
+                                    "Virtual environments": {
+                                        "category": "Topic"
+                                    },
+                                    "Linux": {
+                                        "category": "Topic"
+                                    }
                                 }
                             },
-                            "Alternative DS languages": {"category": "Subject",
+                            "Alternative DS languages": {
+                                "category": "Subject",
                                 "children": {
-                                    "R": {"category": "Topic"},
-                                    "Julia": {"category": "Topic"},
-                                    "Java": {"category": "Topic"},
-                                    "Matlab": {"category": "Topic"}
+                                    "R": {
+                                        "category": "Topic"
+                                    },
+                                    "Julia": {
+                                        "category": "Topic"
+                                    },
+                                    "Java": {
+                                        "category": "Topic"
+                                    },
+                                    "Matlab": {
+                                        "category": "Topic"
+                                    }
                                 }
                             },
-                            "Advanced programming methods": {"category": "Subject"}
+                            "Advanced programming methods": {
+                                "category": "Subject"
+                            }
                         }
                     }
                 }
@@ -70,32 +115,55 @@
                                     "What is ML": {
                                         "category": "Subject",
                                         "children": {
-                                            "Goal": {"category": "Topic"},
-                                            "Data": {"category": "Topic"},
-                                            "Target": {"category": "Topic"},
-                                            "Algorithm": {"category": "Topic"}
+                                            "Goal": {
+                                                "category": "Topic"
+                                            },
+                                            "Data": {
+                                                "category": "Topic"
+                                            },
+                                            "Target": {
+                                                "category": "Topic"
+                                            },
+                                            "Algorithm": {
+                                                "category": "Topic"
+                                            },
+                                            "Supervised vs Unsupervised": {
+                                                "category": "Topic"
+                                            }
                                         }
                                     },
                                     "Machine Learning problems": {
                                         "category": "Subject",
                                         "children": {
-                                            "Classification": {"category": "Topic"},
-                                            "Regression": {"category": "Topic"},
-                                            "Clustering": {"category": "Topic"}
+                                            "Classification": {
+                                                "category": "Topic"
+                                            },
+                                            "Regression": {
+                                                "category": "Topic"
+                                            },
+                                            "Clustering": {
+                                                "category": "Topic"
+                                            }
                                         }
                                     }
                                 }
-
                             },
                             "ML quick application": {
                                 "category": "level",
                                 "children": {
-                                    "Linear regression": {"category": "Topic"},
-                                    "Nearest Neighbors": {"category": "Topic"},
-                                    "RandomForest": {"category": "Topic"},
-                                    "Support Vector Machine": {"category": "Topic"}
+                                    "Linear regression": {
+                                        "category": "Topic"
+                                    },
+                                    "Nearest Neighbors": {
+                                        "category": "Topic"
+                                    },
+                                    "RandomForest": {
+                                        "category": "Topic"
+                                    },
+                                    "Support Vector Machine": {
+                                        "category": "Topic"
+                                    }
                                 }
-                                
                             },
                             "ML thorough understanding": {
                                 "category": "level",
@@ -106,21 +174,41 @@
                                             "Statistical": {
                                                 "category": "Sub-subject",
                                                 "children": {
-                                                    "Curve fitting": {"category": "Topic"},
-                                                    "ANOVA": {"category": "Topic"},
-                                                    "Moving Average": {"category": "Topic"},
-                                                    "SARIMA": {"category": "Topic"}
+                                                    "Curve fitting": {
+                                                        "category": "Topic"
+                                                    },
+                                                    "ANOVA": {
+                                                        "category": "Topic"
+                                                    },
+                                                    "Moving Average": {
+                                                        "category": "Topic"
+                                                    },
+                                                    "SARIMA": {
+                                                        "category": "Topic"
+                                                    }
                                                 }
                                             },
                                             "Classical": {
                                                 "category": "Sub-subject",
                                                 "children": {
-                                                    "Linear models": {"category": "Topic"},
-                                                    "Nearest Neighbors": {"category": "Topic"},
-                                                    "Kernalization": {"category": "Topic"},
-                                                    "Decision trees": {"category": "Topic"},
-                                                    "Bayesian learning": {"category": "Topic"},
-                                                    "Ensemble methods": {"category": "Topic"}
+                                                    "Linear models": {
+                                                        "category": "Topic"
+                                                    },
+                                                    "Nearest Neighbors": {
+                                                        "category": "Topic"
+                                                    },
+                                                    "Kernalization": {
+                                                        "category": "Topic"
+                                                    },
+                                                    "Decision trees": {
+                                                        "category": "Topic"
+                                                    },
+                                                    "Bayesian learning": {
+                                                        "category": "Topic"
+                                                    },
+                                                    "Ensemble methods": {
+                                                        "category": "Topic"
+                                                    }
                                                 }
                                             }
                                         }
@@ -128,27 +216,45 @@
                                     "ML Flavours": {
                                         "category": "Subject",
                                         "children": {
-                                            "Dimensionality reduction": {"category": "Topic"},
-                                            "Anomaly detection": {"category": "Topic"},
-                                            "Reinforcement learning": {"category": "Topic"},
-                                            "Sequence to Sequence modeling": {"category": "Topic"},
-                                            "Forecasting": {"category": "Topic"}
+                                            "Dimensionality reduction": {
+                                                "category": "Topic"
+                                            },
+                                            "Anomaly detection": {
+                                                "category": "Topic"
+                                            },
+                                            "Reinforcement learning": {
+                                                "category": "Topic"
+                                            },
+                                            "Sequence to Sequence modeling": {
+                                                "category": "Topic"
+                                            },
+                                            "Forecasting": {
+                                                "category": "Topic"
+                                            }
                                         }
                                     }
                                 }
-                            
                             }
-                            
                         }
                     },
                     "Data Engineering": {
                         "category": "top_level",
                         "children": {
-                            "Data Exploration": {"category": "Subject"},
-                            "Data Cleaning": {"category": "Subject"},
-                            "Fuzzy matching": {"category": "Subject"},
-                            "Feature engineering": {"category": "Subject"},
-                            "Anonymization": {"category": "Subject"}
+                            "Data Exploration": {
+                                "category": "Subject"
+                            },
+                            "Data Cleaning": {
+                                "category": "Subject"
+                            },
+                            "Fuzzy matching": {
+                                "category": "Subject"
+                            },
+                            "Feature engineering": {
+                                "category": "Subject"
+                            },
+                            "Anonymization": {
+                                "category": "Subject"
+                            }
                         }
                     },
                     "Deep Learning": {
@@ -157,8 +263,12 @@
                             "DL basic concepts": {
                                 "category": "level",
                                 "children": {
-                                    "Neural Networks": {"category": "Topic"},
-                                    "Connectionism ": {"category": "Topic"}
+                                    "Neural Networks": {
+                                        "category": "Topic"
+                                    },
+                                    "Connectionism ": {
+                                        "category": "Topic"
+                                    }
                                 }
                             },
                             "DL quick application": {
@@ -167,9 +277,15 @@
                                     "Common types": {
                                         "category": "Subject",
                                         "children": {
-                                            "Multilayer perceptrons": {"category": "Topic"},
-                                            "Convolutional Neural Networks": {"category": "Topic"},
-                                            "Recurrent Neural Networks": {"category": "Topic"}
+                                            "Multilayer perceptrons": {
+                                                "category": "Topic"
+                                            },
+                                            "Convolutional Neural Networks": {
+                                                "category": "Topic"
+                                            },
+                                            "Recurrent Neural Networks": {
+                                                "category": "Topic"
+                                            }
                                         }
                                     }
                                 }
@@ -180,49 +296,94 @@
                                     "Building Blocks": {
                                         "category": "Subject",
                                         "children": {
-                                            "Perceptron": {"category": "Topic"},
-                                            "Layers": {"category": "Topic"},
-                                            "Backpropagation": {"category": "Topic"},
-                                            "Gradient Descent": {"category": "Topic"},
-                                            "Activation functions": {"category": "Topic"},
-                                            "Loss functions": {"category": "Topic"}
+                                            "Perceptron": {
+                                                "category": "Topic"
+                                            },
+                                            "Layers": {
+                                                "category": "Topic"
+                                            },
+                                            "Backpropagation": {
+                                                "category": "Topic"
+                                            },
+                                            "Gradient Descent": {
+                                                "category": "Topic"
+                                            },
+                                            "Activation functions": {
+                                                "category": "Topic"
+                                            },
+                                            "Loss functions": {
+                                                "category": "Topic"
+                                            }
                                         }
                                     },
                                     "Layer types": {
                                         "category": "Subject",
                                         "children": {
-                                            "Convolutional": {"category": "Topic"},
-                                            "Recurrent": {"category": "Topic"},
-                                            "Attention": {"category": "Topic"}
+                                            "Convolutional": {
+                                                "category": "Topic"
+                                            },
+                                            "Recurrent": {
+                                                "category": "Topic"
+                                            },
+                                            "Attention": {
+                                                "category": "Topic"
+                                            }
                                         }
                                     },
                                     "Regularization": {
                                         "category": "Subject",
                                         "children": {
-                                            "L1 & L2": {"category": "Topic"},
-                                            "Dropout": {"category": "Topic"},
-                                            "Normalization": {"category": "Topic"},
-                                            "Denoizing": {"category": "Topic"},
-                                            "Early stopping": {"category": "Topic"},
-                                            "Pooling": {"category": "Topic"},
-                                            "Data Augmentation": {"category": "Topic"}
+                                            "L1 & L2": {
+                                                "category": "Topic"
+                                            },
+                                            "Dropout": {
+                                                "category": "Topic"
+                                            },
+                                            "Normalization": {
+                                                "category": "Topic"
+                                            },
+                                            "Denoizing": {
+                                                "category": "Topic"
+                                            },
+                                            "Early stopping": {
+                                                "category": "Topic"
+                                            },
+                                            "Pooling": {
+                                                "category": "Topic"
+                                            },
+                                            "Data Augmentation": {
+                                                "category": "Topic"
+                                            }
                                         }
                                     }
                                 }
                             }
-
                         }
                     },
                     "Model evaluation": {
                         "category": "top_level",
                         "children": {
-                            "Classification metrics": {"category": "Subject"},
-                            "Regression metrics": {"category": "Subject"},
-                            "Cluster metrics": {"category": "Subject"},
-                            "Feature importance": {"category": "Subject"},
-                            "Visualization": {"category": "Subject"},
-                            "Domain expertise": {"category": "Subject"},
-                            "Generalization": {"category": "Subject"}
+                            "Classification metrics": {
+                                "category": "Subject"
+                            },
+                            "Regression metrics": {
+                                "category": "Subject"
+                            },
+                            "Cluster metrics": {
+                                "category": "Subject"
+                            },
+                            "Feature importance": {
+                                "category": "Subject"
+                            },
+                            "Visualization": {
+                                "category": "Subject"
+                            },
+                            "Domain expertise": {
+                                "category": "Subject"
+                            },
+                            "Generalization": {
+                                "category": "Subject"
+                            }
                         }
                     },
                     "Training AI": {
@@ -231,76 +392,165 @@
                             "Common pitfalls": {
                                 "category": "Subject",
                                 "children": {
-                                    "Overfitting": {"category": "Topic"},
-                                    "Train test leakage": {"category": "Topic"},
-                                    "Confounding variables": {"category": "Topic"},
-                                    "Faulty data": {"category": "Topic"}
+                                    "Overfitting": {
+                                        "category": "Topic"
+                                    },
+                                    "Train test leakage": {
+                                        "category": "Topic"
+                                    },
+                                    "Confounding variables": {
+                                        "category": "Topic"
+                                    },
+                                    "Faulty data": {
+                                        "category": "Topic"
+                                    }
                                 }
                             },
                             "Training challenges": {
                                 "category": "Subject",
                                 "children": {
-                                    "Unbalanced data": {"category": "Topic"},
-                                    "Cross validation": {"category": "Topic"},
-                                    "Hyperparameter optimization": {"category": "Topic"},
-                                    "Data streams": {"category": "Topic"},
-                                    "Large datasets": {"category": "Topic"},
-                                    "Data scarcity": {"category": "Topic"},
-                                    "Label scarcity": {"category": "Topic"}
+                                    "Unbalanced data": {
+                                        "category": "Topic"
+                                    },
+                                    "Cross validation": {
+                                        "category": "Topic"
+                                    },
+                                    "Hyperparameter optimization": {
+                                        "category": "Topic"
+                                    },
+                                    "Data streams": {
+                                        "category": "Topic"
+                                    },
+                                    "Large datasets": {
+                                        "category": "Topic"
+                                    },
+                                    "Data scarcity": {
+                                        "category": "Topic"
+                                    },
+                                    "Label scarcity": {
+                                        "category": "Topic"
+                                    }
                                 }
                             },
-                            
                             "Training hacks": {
                                 "category": "Subject",
                                 "children": {
-                                    "Training acceleration": {"category": "Topic"},
-                                    "Transfer learning": {"category": "Topic"},
-                                    "Data Augmentation": {"category": "Topic"},
-                                    "ETL pipelines": {"category": "Topic"}
+                                    "Training acceleration": {
+                                        "category": "Topic"
+                                    },
+                                    "Transfer learning": {
+                                        "category": "Topic"
+                                    },
+                                    "Data Augmentation": {
+                                        "category": "Topic"
+                                    },
+                                    "ETL pipelines": {
+                                        "category": "Topic"
+                                    }
                                 }
                             },
                             "ML experimentation": {
                                 "category": "Subject",
                                 "children": {
-                                    "Experiment tracking": {"category": "Topic"},
-                                    "Dataset versioning": {"category": "Topic"}
+                                    "Experiment tracking": {
+                                        "category": "Topic"
+                                    },
+                                    "Dataset versioning": {
+                                        "category": "Topic"
+                                    }
                                 }
                             }
                         }
                     }
                 }
-                
             },
             "Practice": {
                 "category": "category",
                 "children": {
+                    "Experiment design": {
+                        "category": "top_level",
+                        "children": {
+                            "Causal inference": {
+                                "category": "Subject",
+                                "children": {
+                                    "A/B testings": {"category": "Topic"},
+                                    "Stratification": {"category": "Topic"},
+                                    "Regression Discontinuity": {"category": "Topic"},
+                                    "Propensity Score Weighting": {"category": "Topic"},
+                                    "Difference in Differences": {"category": "Topic"},
+                                    "Causal Forest": {"category": "Topic"},
+                                    "Double Machine Learning": {"category": "Topic"}
+                                }
+                            },
+                            "Data Source": {
+                                "category": "Subject",
+                                "children": {
+                                    "Correlative Noise": {"category": "Topic"},
+                                    "Population Diversity": {"category": "Topic"},
+                                    "Target Unbalance": {"category": "Topic"}
+                                }
+                            }
+                        }
+                    },
                     "AI ethics": {
                         "category": "top_level",
                         "children": {
-                            "Recording bias": {"category": "Subject"},
-                            "Frequency bias": {"category": "Subject"},
-                            "Questionable features": {"category": "Subject"},
-                            "Privacy": {"category": "Subject"}
+                            "Recording bias": {
+                                "category": "Subject"
+                            },
+                            "Frequency bias": {
+                                "category": "Subject"
+                            },
+                            "Questionable features": {
+                                "category": "Subject"
+                            },
+                            "Privacy": {
+                                "category": "Subject"
+                            }
                         }
                     },
                     "AI in production": {
                         "category": "top_level",
                         "children": {
-                            "Data storage": {"category": "Subject"},
-                            "Data processing": {"category": "Subject"},
-                            "Data flow management": {"category": "Subject"},
-                            "Data security": {"category": "Subject"},
-                            "Model serving": {"category": "Subject"},
-                            "Cloud technologies": {"category": "Subject"},
-                            "Industry standards": {"category": "Subject"},
-                            "Scale computing": {"category": "Subject"},
+                            "Data storage": {
+                                "category": "Subject"
+                            },
+                            "Data processing": {
+                                "category": "Subject"
+                            },
+                            "Data flow management": {
+                                "category": "Subject"
+                            },
+                            "Data security": {
+                                "category": "Subject"
+                            },
+                            "Model serving": {
+                                "category": "Subject"
+                            },
+                            "Cloud technologies": {
+                                "category": "Subject"
+                            },
+                            "Industry standards": {
+                                "category": "Subject"
+                            },
+                            "Scale computing": {
+                                "category": "Subject"
+                            },
                             "Inference optimization": {
                                 "category": "Subject",
                                 "children": {
-                                    "Model pruning": {"category": "Topic"},
-                                    "Model compilation": {"category": "Topic"},
-                                    "GPU acceleration": {"category": "Topic"},
-                                    "Knowledge distillation": {"category": "Topic"}
+                                    "Model pruning": {
+                                        "category": "Topic"
+                                    },
+                                    "Model compilation": {
+                                        "category": "Topic"
+                                    },
+                                    "GPU acceleration": {
+                                        "category": "Topic"
+                                    },
+                                    "Knowledge distillation": {
+                                        "category": "Topic"
+                                    }
                                 }
                             }
                         }
@@ -311,53 +561,97 @@
                             "Model interpretability": {
                                 "category": "Subject",
                                 "children": {
-                                    "Feature Importance": {"category": "Topic"},
-                                    "Partial Dependence Plots": {"category": "Topic"},
-                                    "Accumulated Local Effects Plot": {"category": "Topic"},
-                                    "Individual Conditional Expectation": {"category": "Topic"},
-                                    "Surrogate Models": {"category": "Topic"}
+                                    "Feature Importance": {
+                                        "category": "Topic"
+                                    },
+                                    "Partial Dependence Plots": {
+                                        "category": "Topic"
+                                    },
+                                    "Accumulated Local Effects Plot": {
+                                        "category": "Topic"
+                                    },
+                                    "Individual Conditional Expectation": {
+                                        "category": "Topic"
+                                    },
+                                    "Surrogate Models": {
+                                        "category": "Topic"
+                                    }
                                 }
                             },
-                            "Model explainability": {"category": "Subject"}
+                            "Model explainability": {
+                                "category": "Subject"
+                            }
                         }
-                    
                     },
                     "Data Collection": {
                         "category": "top_level",
                         "children": {
-                            "Data Recording": {"category": "Subject"},
-                            "Data Labeling": {"category": "Subject"},
-                            "Data quality": {"category": "Subject"},
-                            "Data generation": {"category": "Subject"},
-                            "Scraping": {"category": "Subject"},
-                            "Combining datasets": {"category": "Subject"}
+                            "Data Recording": {
+                                "category": "Subject"
+                            },
+                            "Data Labeling": {
+                                "category": "Subject"
+                            },
+                            "Data quality": {
+                                "category": "Subject"
+                            },
+                            "Data generation": {
+                                "category": "Subject"
+                            },
+                            "Scraping": {
+                                "category": "Subject"
+                            },
+                            "Combining datasets": {
+                                "category": "Subject"
+                            }
                         }
-                    
                     },
                     "DevOps": {
                         "category": "top_level",
                         "children": {
-                            "Containerization": {"category": "Topic"},
-                            "Orchestration": {"category": "Topic"},
-                            "Software testing": {"category": "Topic"},
-                            "CI/CD": {"category": "Topic"}
+                            "Containerization": {
+                                "category": "Topic"
+                            },
+                            "Orchestration": {
+                                "category": "Topic"
+                            },
+                            "Software testing": {
+                                "category": "Topic"
+                            },
+                            "CI/CD": {
+                                "category": "Topic"
+                            }
                         }
-                    }, 
+                    },
                     "MLOps": {
                         "category": "top_level",
                         "children": {
-                            "Data versioning": {"category": "Topic"},
-                            "Model retraining": {"category": "Topic"},
-                            "Model management": {"category": "Topic"},
-                            "Model testing and validation": {"category": "Topic"},
-                            "Monitoring": {"category": "Topic"}
+                            "Data versioning": {
+                                "category": "Topic"
+                            },
+                            "Model retraining": {
+                                "category": "Topic"
+                            },
+                            "Model management": {
+                                "category": "Topic"
+                            },
+                            "Model testing and validation": {
+                                "category": "Topic"
+                            },
+                            "Monitoring": {
+                                "category": "Topic"
+                            }
                         }
                     },
                     "Trasfering models to the real world": {
                         "category": "top_level",
                         "children": {
-                            "RL IRL": {"category": "Subject"},
-                            "Model drift": {"category": "Subject"}
+                            "RL IRL": {
+                                "category": "Subject"
+                            },
+                            "Model drift": {
+                                "category": "Subject"
+                            }
                         }
                     }
                 }
@@ -368,15 +662,33 @@
                     "Advanced ML Methods": {
                         "category": "top_level",
                         "children": {
-                            "Deep Reinforcement Learning": {"category": "Subject"},
-                            "NLP": {"category": "Subject"},
-                            "Generative Adversarial Networks": {"category": "Subject"},
-                            "Transformers": {"category": "Subject"}, 
-                            "Few shot learning": {"category": "Subject"}, 
-                            "AutoML": {"category": "Subject"}, 
-                            "Meta Learning": {"category": "Subject"}, 
-                            "Metric Learning": {"category": "Subject"},
-                            "End to end Learning": {"category": "Subject"}
+                            "Deep Reinforcement Learning": {
+                                "category": "Subject"
+                            },
+                            "NLP": {
+                                "category": "Subject"
+                            },
+                            "Generative Adversarial Networks": {
+                                "category": "Subject"
+                            },
+                            "Transformers": {
+                                "category": "Subject"
+                            },
+                            "Few shot learning": {
+                                "category": "Subject"
+                            },
+                            "AutoML": {
+                                "category": "Subject"
+                            },
+                            "Meta Learning": {
+                                "category": "Subject"
+                            },
+                            "Metric Learning": {
+                                "category": "Subject"
+                            },
+                            "End to end Learning": {
+                                "category": "Subject"
+                            }
                         }
                     },
                     "Domain Topics": {
@@ -385,15 +697,29 @@
                             "Privacy": {
                                 "category": "Subject",
                                 "children": {
-                                    "Cryptography": {"category": "Topic"},
-                                    "Differential Privacy": {"category": "Topic"},
-                                    "Federated Learning": {"category": "Topic"}
+                                    "Cryptography": {
+                                        "category": "Topic"
+                                    },
+                                    "Differential Privacy": {
+                                        "category": "Topic"
+                                    },
+                                    "Federated Learning": {
+                                        "category": "Topic"
+                                    }
                                 }
                             },
-                            "Edge computing": {"category": "Subject"},
-                            "Signal processing": {"category": "Subject"},
-                            "Robotics": {"category": "Subject"},
-                            "Neuromorphic computing": {"category": "Subject"}
+                            "Edge computing": {
+                                "category": "Subject"
+                            },
+                            "Signal processing": {
+                                "category": "Subject"
+                            },
+                            "Robotics": {
+                                "category": "Subject"
+                            },
+                            "Neuromorphic computing": {
+                                "category": "Subject"
+                            }
                         }
                     }
                 }
@@ -407,24 +733,44 @@
                             "Basic understanding": {
                                 "category": "Subject",
                                 "children": {
-                                    "AI": {"category": "Subject"},
-                                    "Machine Learning": {"category": "Subject"},
-                                    "Deep Learning": {"category": "Subject"}
+                                    "AI": {
+                                        "category": "Subject"
+                                    },
+                                    "Machine Learning": {
+                                        "category": "Subject"
+                                    },
+                                    "Deep Learning": {
+                                        "category": "Subject"
+                                    }
                                 }
                             },
                             "Data": {
                                 "category": "Subject",
                                 "children": {
-                                    "Data retrieval": {"category": "Subject"},
-                                    "Structured vs Unstructured": {"category": "Subject"},
-                                    "Data Collection": {"category": "Subject"},
-                                    "Data privacy": {"category": "Subject"},
+                                    "Data types": {
+                                        "category": "Subject"
+                                    },
+                                    "Structured vs Unstructured": {
+                                        "category": "Subject"
+                                    },
+                                    "Data Collection": {
+                                        "category": "Subject"
+                                    },
+                                    "Data privacy": {
+                                        "category": "Subject"
+                                    },
                                     "Biased data": {
                                         "category": "Subject",
                                         "children": {
-                                            "Bogus in Bogus out": {"category": "Topic"},
-                                            "Human error": {"category": "Topic"},
-                                            "Prejudice": {"category": "Topic"}
+                                            "Bogus in Bogus out": {
+                                                "category": "Topic"
+                                            },
+                                            "Human error": {
+                                                "category": "Topic"
+                                            },
+                                            "Prejudice": {
+                                                "category": "Topic"
+                                            }
                                         }
                                     }
                                 }
@@ -432,12 +778,16 @@
                             "AI applicable?": {
                                 "category": "Subject",
                                 "children": {
-                                    "Suitable problems": {"category": "Topic"},
-                                    "Business case": {"category": "Topic"},
-                                    "Make or buy": {"category": "Topic"}
-
+                                    "Suitable problems": {
+                                        "category": "Topic"
+                                    },
+                                    "Business case": {
+                                        "category": "Topic"
+                                    },
+                                    "Make or buy": {
+                                        "category": "Topic"
+                                    }
                                 }
-                                
                             }
                         }
                     },
@@ -447,32 +797,64 @@
                             "AI prerequisites": {
                                 "category": "Subject",
                                 "children": {
-                                    "Sufficient data": {"category": "Topic"},
-                                    "Clean data": {"category": "Topic"},
-                                    "Business alignment": {"category": "Topic"},
-                                    "Clear Goal": {"category": "Topic"}
+                                    "Sufficient data": {
+                                        "category": "Topic"
+                                    },
+                                    "Clean data": {
+                                        "category": "Topic"
+                                    },
+                                    "Business alignment": {
+                                        "category": "Topic"
+                                    },
+                                    "Clear Goal": {
+                                        "category": "Topic"
+                                    }
                                 }
                             },
                             "AI project pitfalls": {
                                 "category": "Subject",
                                 "children": {
-                                    "Unrealistic expectations": {"category": "Topic"},
-                                    "Accuracy threshold": {"category": "Topic"},
-                                    "Alignment business goals": {"category": "Topic"},
-                                    "Lack quality data": {"category": "Topic"},
-                                    "Misestimate engineering efforts": {"category": "Topic"},
-                                    "Production software lacking": {"category": "Topic"}
+                                    "Unrealistic expectations": {
+                                        "category": "Topic"
+                                    },
+                                    "Accuracy threshold": {
+                                        "category": "Topic"
+                                    },
+                                    "Alignment business goals": {
+                                        "category": "Topic"
+                                    },
+                                    "Lack quality data": {
+                                        "category": "Topic"
+                                    },
+                                    "Misestimate engineering efforts": {
+                                        "category": "Topic"
+                                    },
+                                    "Production software lacking": {
+                                        "category": "Topic"
+                                    }
                                 }
                             },
                             "AI in production": {
                                 "category": "Subject",
                                 "children": {
-                                    "Model understanding": {"category": "Topic"},
-                                    "Cost of mistake": {"category": "Topic"},
-                                    "Experiment vs reality": {"category": "Topic"},
-                                    "GDPR": {"category": "Topic"},
-                                    "Model updates": {"category": "Topic"},
-                                    "MLOps": {"category": "Topic"}
+                                    "Model understanding": {
+                                        "category": "Topic"
+                                    },
+                                    "Cost of mistake": {
+                                        "category": "Topic"
+                                    },
+                                    "Experiment vs reality": {
+                                        "category": "Topic"
+                                    },
+                                    "GDPR": {
+                                        "category": "Topic"
+                                    },
+                                    "Model updates": {
+                                        "category": "Topic"
+                                    },
+                                    "MLOps": {
+                                        "category": "Topic"
+                                    }
                                 }
                             }
                         }
@@ -483,31 +865,61 @@
                             "AI maturity": {
                                 "category": "Subject",
                                 "children": {
-                                    "Kick-off": {"category": "Topic"},
-                                    "Data warehousing": {"category": "Topic"},
-                                    "BI and reporting": {"category": "Topic"},
-                                    "Data-driven business": {"category": "Topic"},
-                                    "AI experimentation": {"category": "Topic"},
-                                    "AI in production": {"category": "Topic"},
-                                    "AI business models": {"category": "Topic"}
+                                    "Kick-off": {
+                                        "category": "Topic"
+                                    },
+                                    "Data warehousing": {
+                                        "category": "Topic"
+                                    },
+                                    "BI and reporting": {
+                                        "category": "Topic"
+                                    },
+                                    "Data-driven business": {
+                                        "category": "Topic"
+                                    },
+                                    "AI experimentation": {
+                                        "category": "Topic"
+                                    },
+                                    "AI in production": {
+                                        "category": "Topic"
+                                    },
+                                    "AI business models": {
+                                        "category": "Topic"
+                                    }
                                 }
                             },
                             "AI overeporting": {
                                 "category": "Subject",
                                 "children": {
-                                    "AI hype": {"category": "Topic"},
-                                    "AI limitations": {"category": "Topic"}, 
-                                    "Reporting experiments": {"category": "Topic"},
-                                    "AI news": {"category": "Topic"}
+                                    "AI hype": {
+                                        "category": "Topic"
+                                    },
+                                    "AI limitations": {
+                                        "category": "Topic"
+                                    },
+                                    "Reporting experiments": {
+                                        "category": "Topic"
+                                    },
+                                    "AI news": {
+                                        "category": "Topic"
+                                    }
                                 }
                             },
                             "Future of AI": {
                                 "category": "Subject",
                                 "children": {
-                                    "State of the Art": {"category": "Topic"},
-                                    "Third party AI": {"category": "Topic"},
-                                    "AutoML": {"category": "Topic"},
-                                    "Artificial General Intelligence": {"category": "Topic"}
+                                    "State of the Art": {
+                                        "category": "Topic"
+                                    },
+                                    "Third party AI": {
+                                        "category": "Topic"
+                                    },
+                                    "AutoML": {
+                                        "category": "Topic"
+                                    },
+                                    "Artificial General Intelligence": {
+                                        "category": "Topic"
+                                    }
                                 }
                             }
                         }

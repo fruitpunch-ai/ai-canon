@@ -184,6 +184,11 @@
                                             "category": "Topic",
                                             "name": "Algorithm",
                                             "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "Supervised vs Unsupervised",
+                                            "size": 3938
                                         }
                                     ],
                                     "name": "What is ML"
@@ -697,6 +702,74 @@
                     "children": [
                         {
                             "category": "Subject",
+                            "children": [
+                                {
+                                    "category": "Topic",
+                                    "name": "A/B testings",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Stratification",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Regression Discontinuity",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Propensity Score Weighting",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Difference in Differences",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Causal Forest",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Double Machine Learning",
+                                    "size": 3938
+                                }
+                            ],
+                            "name": "Causal inference"
+                        },
+                        {
+                            "category": "Subject",
+                            "children": [
+                                {
+                                    "category": "Topic",
+                                    "name": "Correlative Noise",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Population Diversity",
+                                    "size": 3938
+                                },
+                                {
+                                    "category": "Topic",
+                                    "name": "Target Unbalance",
+                                    "size": 3938
+                                }
+                            ],
+                            "name": "Data Source"
+                        }
+                    ],
+                    "name": "Experiment design"
+                },
+                {
+                    "category": "top_level",
+                    "children": [
+                        {
+                            "category": "Subject",
                             "name": "Recording bias",
                             "size": 3938
                         },
@@ -1080,7 +1153,7 @@
                             "children": [
                                 {
                                     "category": "Subject",
-                                    "name": "Data retrieval",
+                                    "name": "Data types",
                                     "size": 3938
                                 },
                                 {
