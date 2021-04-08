@@ -9,8 +9,21 @@
                     "children": [
                         {
                             "category": "Subject",
-                            "name": "Statistics",
-                            "size": 3938
+                            "children": [
+                                {
+                                    "category": "Topic",
+                                    "educational_resources": {
+                                        "fruitpunch": {
+                                            "assignments": {
+                                                "ai_code": "https://gitlab.com/fruitpunch/education/events/ai-code-2019/epoch-7"
+                                            }
+                                        }
+                                    },
+                                    "name": "Monte Carlo method",
+                                    "size": 3938
+                                }
+                            ],
+                            "name": "Statistics and probability"
                         },
                         {
                             "category": "Subject",
@@ -208,6 +221,13 @@
                                         },
                                         {
                                             "category": "Topic",
+                                            "educational_resources": {
+                                                "fruitpunch": {
+                                                    "assignments": {
+                                                        "bootcamp_3": "https://gitlab.com/fruitpunch/education/events/bootcamp-2020/Session3"
+                                                    }
+                                                }
+                                            },
                                             "name": "Clustering",
                                             "size": 3938
                                         }
@@ -222,6 +242,14 @@
                             "children": [
                                 {
                                     "category": "Topic",
+                                    "educational_resources": {
+                                        "fruitpunch": {
+                                            "assignments": {
+                                                "ai_code": "https://gitlab.com/fruitpunch/education/events/ai-code-2019/epoch-0",
+                                                "bootcamp_1": "https://gitlab.com/fruitpunch/education/events/bootcamp-2020/Session1"
+                                            }
+                                        }
+                                    },
                                     "name": "Linear regression",
                                     "size": 3938
                                 },
@@ -241,6 +269,13 @@
                                     "size": 3938
                                 }
                             ],
+                            "educational_resources": {
+                                "fruitpunch": {
+                                    "assignments": {
+                                        "ai_code": "https://gitlab.com/fruitpunch/education/events/ai-code-2019/epoch-8"
+                                    }
+                                }
+                            },
                             "name": "ML quick application"
                         },
                         {
@@ -305,6 +340,14 @@
                                                 },
                                                 {
                                                     "category": "Topic",
+                                                    "educational_resources": {
+                                                        "fruitpunch": {
+                                                            "assignments": {
+                                                                "ai_code": "https://gitlab.com/fruitpunch/education/events/ai-code-2019/epoch-5",
+                                                                "bootcamp_4": "https://gitlab.com/fruitpunch/education/events/bootcamp-2020/Session4"
+                                                            }
+                                                        }
+                                                    },
                                                     "name": "Ensemble methods",
                                                     "size": 3938
                                                 }
@@ -329,6 +372,13 @@
                                         },
                                         {
                                             "category": "Topic",
+                                            "educational_resources": {
+                                                "fruitpunch": {
+                                                    "assignments": {
+                                                        "bootcamp_8": "https://gitlab.com/fruitpunch/education/events/bootcamp-2020/Session8"
+                                                    }
+                                                }
+                                            },
                                             "name": "Reinforcement learning",
                                             "size": 3938
                                         },
@@ -356,6 +406,13 @@
                     "children": [
                         {
                             "category": "Subject",
+                            "educational_resources": {
+                                "fruitpunch": {
+                                    "assignments": {
+                                        "bootcamp_2": "https://gitlab.com/fruitpunch/education/events/bootcamp-2020/Session2"
+                                    }
+                                }
+                            },
                             "name": "Data Exploration",
                             "size": 3938
                         },
@@ -363,6 +420,17 @@
                             "category": "Subject",
                             "name": "Data Cleaning",
                             "size": 3938
+                        },
+                        {
+                            "category": "Subject",
+                            "children": [
+                                {
+                                    "category": "Topic",
+                                    "name": "Categorical encoding",
+                                    "size": 3938
+                                }
+                            ],
+                            "name": "Data encoding"
                         },
                         {
                             "category": "Subject",
@@ -414,6 +482,15 @@
                                         },
                                         {
                                             "category": "Topic",
+                                            "educational_resources": {
+                                                "fruitpunch": {
+                                                    "assignments": {
+                                                        "ai_code_epoch-1": "https://gitlab.com/fruitpunch/education/events/ai-code-2019/epoch-1",
+                                                        "ai_code_epoch-2": "https://gitlab.com/fruitpunch/education/events/ai-code-2019/epoch-2",
+                                                        "bootcamp_6": "https://gitlab.com/fruitpunch/education/events/bootcamp-2020/Session6"
+                                                    }
+                                                }
+                                            },
                                             "name": "Convolutional Neural Networks",
                                             "size": 3938
                                         },
@@ -421,9 +498,52 @@
                                             "category": "Topic",
                                             "name": "Recurrent Neural Networks",
                                             "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "educational_resources": {
+                                                "fruitpunch": {
+                                                    "assignments": {
+                                                        "ai_code_epoch-10": "https://gitlab.com/fruitpunch/education/events/ai-code-2019/epoch-10"
+                                                    }
+                                                }
+                                            },
+                                            "name": "Autoencoder",
+                                            "size": 3938
                                         }
                                     ],
                                     "name": "Common types"
+                                },
+                                {
+                                    "category": "Subject",
+                                    "children": [
+                                        {
+                                            "category": "Topic",
+                                            "name": "AlexNet",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "ResNet",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "YOLO",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "BERT",
+                                            "size": 3938
+                                        },
+                                        {
+                                            "category": "Topic",
+                                            "name": "GTP",
+                                            "size": 3938
+                                        }
+                                    ],
+                                    "name": "Common Architectures"
                                 }
                             ],
                             "name": "DL quick application"
@@ -465,6 +585,13 @@
                                             "size": 3938
                                         }
                                     ],
+                                    "educational_resources": {
+                                        "fruitpunch": {
+                                            "assignments": {
+                                                "bootcamp_5": "https://gitlab.com/fruitpunch/education/events/bootcamp-2020/Session5"
+                                            }
+                                        }
+                                    },
                                     "name": "Building Blocks"
                                 },
                                 {
@@ -656,6 +783,13 @@
                                 },
                                 {
                                     "category": "Topic",
+                                    "educational_resources": {
+                                        "fruitpunch": {
+                                            "assignments": {
+                                                "ai_code": "https://gitlab.com/fruitpunch/education/events/ai-code-2019/epoch-9"
+                                            }
+                                        }
+                                    },
                                     "name": "Transfer learning",
                                     "size": 3938
                                 },
@@ -1025,11 +1159,38 @@
                     "children": [
                         {
                             "category": "Subject",
-                            "name": "Deep Reinforcement Learning",
-                            "size": 3938
+                            "children": [
+                                {
+                                    "category": "Sub-subject",
+                                    "children": [
+                                        {
+                                            "category": "Topic",
+                                            "educational_resources": {
+                                                "fruitpunch": {
+                                                    "assignments": {
+                                                        "ai_code_epoch-11": "https://gitlab.com/fruitpunch/education/events/ai-code-2019/epoch-11"
+                                                    }
+                                                }
+                                            },
+                                            "name": "Deep Q Learning",
+                                            "size": 3938
+                                        }
+                                    ],
+                                    "name": "RL Algorithms"
+                                }
+                            ],
+                            "name": "Deep Reinforcement Learning"
                         },
                         {
                             "category": "Subject",
+                            "educational_resources": {
+                                "fruitpunch": {
+                                    "assignments": {
+                                        "ai_code_epoch-14": "https://gitlab.com/fruitpunch/education/events/ai-code-2019/epoch-14",
+                                        "bootcamp_7": "https://gitlab.com/fruitpunch/education/events/bootcamp-2020/Session7"
+                                    }
+                                }
+                            },
                             "name": "NLP",
                             "size": 3938
                         },
@@ -1097,6 +1258,13 @@
                         },
                         {
                             "category": "Subject",
+                            "educational_resources": {
+                                "fruitpunch": {
+                                    "assignments": {
+                                        "ai_code_epoch-15": "https://gitlab.com/fruitpunch/education/events/ai-code-2019/epoch-15"
+                                    }
+                                }
+                            },
                             "name": "Edge computing",
                             "size": 3938
                         },
