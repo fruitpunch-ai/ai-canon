@@ -134,22 +134,86 @@ AI Core:
       Generalization
       Domain knowledge validation
 AI in Pracktice:
+  AI deployment:
+    DevOps:
+      Containerization
+      Orchestration
+      Software testing
+      CI/CD
+    MLOps:
+      Data versioning
+      Model retraining
+      Model management
+      Model testing and validation
+      Monitoring
+    Model health:
+      Model drift
   Tooling:
     Developer skills:
     MLOps:
     Big Data:
     Simulation:
   Human Interaction:
+    Model understanding:
+        Model interpretability:
+          Feature Importance
+          Partial Dependence Plots
+          Accumulated Local Effects Plot
+          Individual Conditional Expectation
+          Surrogate Models
+        Model explainability:
     AI Fairness:
+      Fairness criteria:
+        Independence
+        Separation
+        Sufficiency
+      Sensitive features:
+        Ethnicity
+        Sex
+        Relion
+        Gender
+        Socioeconomic status
+        Age
+      Biases:
+        Sample bias
+        Exclusion bias 
+        Measurement bias
+        Recall bias
+        Observer bias
+        Association bias
+        Omitted variable bias
     Privacy:
-    Ethics:
+      Anonymization:
+        k-anonymity
+        l-diversity
+      GDPR:
+    Model attacks:
+      Training data extraction attacks
+      Adverserial attacks
   Hardware:
+    Inference optimization:
     Cloud computing:
     Edge computing:
     HPC:
-  Model in production:
-    Model drift
   Experiment design:
+    Data Collection:
+      Data Labeling
+      Data generation
+      Scraping
+      Combining datasets
+      Simulation
+    Design pitfalls:
+      Causal inference
+      Correlative Noise
+      Population Diversity
+      Target Unbalance
+    Collection biases:
+      Sample bias
+      Measurement bias
+      Recall bias
+      Observer bias
+
+    
   
 AI Application:
   Data formats:
