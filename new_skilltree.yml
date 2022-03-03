@@ -1,14 +1,55 @@
 Foundation:
   Programming:
-    Software devlopment:
+    Programming basics:
+      Variables
+      Functions
+      Types
+      Data structures
+      Artihmetic
+      Conditional logic
+    Developer basics:
+      IDEs
+      Git
+      SSH
+      Virtual environments
+      Linux
     Python for DS:
+      Numpy
+      Pandas
+      Scipy
+    Alternative DS languages:
+      R
+      Julia
+      Java
+      Matlab
   Maths:
     Statistics:
-    Logic:
+    Logic and set theory:
     Calculus:
+  Neural Networks:
+    Building Blocks:
+      Perceptron
+      Layers
+      Backpropagation
+      Gradient Descent
+      Activation functions
+      Loss functions
+    Layer types:
+      Dense
+      Convolutional
+      Recurrent
+      Attention
+      Augmentation
+      Residual connections
+    Regularization:
+      L1 & L2
+      Dropout
+      Normalization
+      Denoizing
+      Early stopping
+      Pooling
+      Data Augmentation
 
-  Algorithms:
-  Deep thorough
 AI Core:
   Data Egineering:
   Machine Learning:

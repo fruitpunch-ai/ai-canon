@@ -2,12 +2,13 @@ import json
 
 canon = json.load(open('ai_canon.json'))
 
-def recurse_json(old_obj):
+def recurse_json(old_obj, count=0):
     new_obj = []
     for k, v in old_obj.items():
         v['name'] = k
+        print("  "*count, k)
         if 'children' in v:
-            v['children'] = recurse_json(v['children'])
+            v['children'] = recurse_json(v['children'], count+1)
         else:
             v['size'] = 3938
 
@@ -16,10 +17,11 @@ def recurse_json(old_obj):
 
     return new_obj
 
+indents = ''
 flat_canon = recurse_json(canon)[0]
 print(flat_canon)
 
-yml = True
+yml = False
 if yml:
     import yaml
     yaml.dump(flat_canon, open('flat_ai_canon.yml', 'w'))
