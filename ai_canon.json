@@ -2,7 +2,7 @@
     "AI": {
         "category": "root",
         "children": {
-            "Basis": {
+            "Fundamentals": {
                 "category": "category",
                 "children": {
                     "Background": {

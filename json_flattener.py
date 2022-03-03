@@ -18,4 +18,10 @@ def recurse_json(old_obj):
 
 flat_canon = recurse_json(canon)[0]
 print(flat_canon)
+
+yml = True
+if yml:
+    import yaml
+    yaml.dump(flat_canon, open('flat_ai_canon.yml', 'w'))
+
 json.dump(flat_canon, open('flat_ai_canon.json', 'w'), indent=4)

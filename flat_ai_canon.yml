@@ -1,0 +1,819 @@
+category: root
+children:
+- category: category
+  children:
+  - category: top_level
+    children:
+    - category: Subject
+      name: Statistics
+      size: 3938
+    - category: Subject
+      name: Calculus
+      size: 3938
+    - category: Subject
+      name: Linear Algebra
+      size: 3938
+    - category: Subject
+      name: Information Theory
+      size: 3938
+    - category: Subject
+      name: Data Structures
+      size: 3938
+    - category: Subject
+      name: Algorithms
+      size: 3938
+    name: Background
+  - category: top_level
+    children:
+    - category: Subject
+      name: Programming basics
+      size: 3938
+    - category: Subject
+      children:
+      - category: Topic
+        name: IDEs
+        size: 3938
+      - category: Topic
+        name: Types
+        size: 3938
+      - category: Topic
+        name: Functions
+        size: 3938
+      name: Programming in Python
+    - category: Subject
+      children:
+      - category: Topic
+        name: Numpy
+        size: 3938
+      - category: Topic
+        name: Pandas
+        size: 3938
+      - category: Topic
+        name: Scipy
+        size: 3938
+      name: Python for Data Science
+    - category: Subject
+      children:
+      - category: Topic
+        name: Git
+        size: 3938
+      - category: Topic
+        name: SSH
+        size: 3938
+      - category: Topic
+        name: Virtual environments
+        size: 3938
+      - category: Topic
+        name: Linux
+        size: 3938
+      name: Developer basics
+    - category: Subject
+      children:
+      - category: Topic
+        name: R
+        size: 3938
+      - category: Topic
+        name: Julia
+        size: 3938
+      - category: Topic
+        name: Java
+        size: 3938
+      - category: Topic
+        name: Matlab
+        size: 3938
+      name: Alternative DS languages
+    - category: Subject
+      name: Advanced programming methods
+      size: 3938
+    name: Programming
+  name: Fundamentals
+- category: category
+  children:
+  - category: top_level
+    children:
+    - category: level
+      children:
+      - category: Subject
+        children:
+        - category: Topic
+          name: Goal
+          size: 3938
+        - category: Topic
+          name: Data
+          size: 3938
+        - category: Topic
+          name: Target
+          size: 3938
+        - category: Topic
+          name: Algorithm
+          size: 3938
+        - category: Topic
+          name: Supervised vs Unsupervised
+          size: 3938
+        name: What is ML
+      - category: Subject
+        children:
+        - category: Topic
+          name: Classification
+          size: 3938
+        - category: Topic
+          name: Regression
+          size: 3938
+        - category: Topic
+          name: Clustering
+          size: 3938
+        name: Machine Learning problems
+      name: ML basic concepts
+    - category: level
+      children:
+      - category: Topic
+        name: Linear regression
+        size: 3938
+      - category: Topic
+        name: Nearest Neighbors
+        size: 3938
+      - category: Topic
+        name: RandomForest
+        size: 3938
+      - category: Topic
+        name: Support Vector Machine
+        size: 3938
+      name: ML quick application
+    - category: level
+      children:
+      - category: Subject
+        children:
+        - category: Sub-subject
+          children:
+          - category: Topic
+            name: Curve fitting
+            size: 3938
+          - category: Topic
+            name: ANOVA
+            size: 3938
+          - category: Topic
+            name: Moving Average
+            size: 3938
+          - category: Topic
+            name: SARIMA
+            size: 3938
+          name: Statistical
+        - category: Sub-subject
+          children:
+          - category: Topic
+            name: Linear models
+            size: 3938
+          - category: Topic
+            name: Nearest Neighbors
+            size: 3938
+          - category: Topic
+            name: Kernalization
+            size: 3938
+          - category: Topic
+            name: Decision trees
+            size: 3938
+          - category: Topic
+            name: Bayesian learning
+            size: 3938
+          - category: Topic
+            name: Ensemble methods
+            size: 3938
+          name: Classical
+        name: Machine learning methods
+      - category: Subject
+        children:
+        - category: Topic
+          name: Dimensionality reduction
+          size: 3938
+        - category: Topic
+          name: Anomaly detection
+          size: 3938
+        - category: Topic
+          name: Reinforcement learning
+          size: 3938
+        - category: Topic
+          name: Sequence to Sequence modeling
+          size: 3938
+        - category: Topic
+          name: Forecasting
+          size: 3938
+        name: ML Flavours
+      name: ML thorough understanding
+    name: Machine Learning
+  - category: top_level
+    children:
+    - category: Subject
+      name: Data Exploration
+      size: 3938
+    - category: Subject
+      name: Data Cleaning
+      size: 3938
+    - category: Subject
+      name: Fuzzy matching
+      size: 3938
+    - category: Subject
+      name: Feature engineering
+      size: 3938
+    - category: Subject
+      name: Anonymization
+      size: 3938
+    name: Data Engineering
+  - category: top_level
+    children:
+    - category: level
+      children:
+      - category: Topic
+        name: Neural Networks
+        size: 3938
+      - category: Topic
+        name: 'Connectionism '
+        size: 3938
+      name: DL basic concepts
+    - category: level
+      children:
+      - category: Subject
+        children:
+        - category: Topic
+          name: Multilayer perceptrons
+          size: 3938
+        - category: Topic
+          name: Convolutional Neural Networks
+          size: 3938
+        - category: Topic
+          name: Recurrent Neural Networks
+          size: 3938
+        name: Common types
+      name: DL quick application
+    - category: level
+      children:
+      - category: Subject
+        children:
+        - category: Topic
+          name: Perceptron
+          size: 3938
+        - category: Topic
+          name: Layers
+          size: 3938
+        - category: Topic
+          name: Backpropagation
+          size: 3938
+        - category: Topic
+          name: Gradient Descent
+          size: 3938
+        - category: Topic
+          name: Activation functions
+          size: 3938
+        - category: Topic
+          name: Loss functions
+          size: 3938
+        name: Building Blocks
+      - category: Subject
+        children:
+        - category: Topic
+          name: Convolutional
+          size: 3938
+        - category: Topic
+          name: Recurrent
+          size: 3938
+        - category: Topic
+          name: Attention
+          size: 3938
+        name: Layer types
+      - category: Subject
+        children:
+        - category: Topic
+          name: L1 & L2
+          size: 3938
+        - category: Topic
+          name: Dropout
+          size: 3938
+        - category: Topic
+          name: Normalization
+          size: 3938
+        - category: Topic
+          name: Denoizing
+          size: 3938
+        - category: Topic
+          name: Early stopping
+          size: 3938
+        - category: Topic
+          name: Pooling
+          size: 3938
+        - category: Topic
+          name: Data Augmentation
+          size: 3938
+        name: Regularization
+      name: DL thorough understanding
+    name: Deep Learning
+  - category: top_level
+    children:
+    - category: Subject
+      name: Classification metrics
+      size: 3938
+    - category: Subject
+      name: Regression metrics
+      size: 3938
+    - category: Subject
+      name: Cluster metrics
+      size: 3938
+    - category: Subject
+      name: Feature importance
+      size: 3938
+    - category: Subject
+      name: Visualization
+      size: 3938
+    - category: Subject
+      name: Domain expertise
+      size: 3938
+    - category: Subject
+      name: Generalization
+      size: 3938
+    name: Model evaluation
+  - category: top_level
+    children:
+    - category: Subject
+      children:
+      - category: Topic
+        name: Overfitting
+        size: 3938
+      - category: Topic
+        name: Train test leakage
+        size: 3938
+      - category: Topic
+        name: Confounding variables
+        size: 3938
+      - category: Topic
+        name: Faulty data
+        size: 3938
+      name: Common pitfalls
+    - category: Subject
+      children:
+      - category: Topic
+        name: Unbalanced data
+        size: 3938
+      - category: Topic
+        name: Cross validation
+        size: 3938
+      - category: Topic
+        name: Hyperparameter optimization
+        size: 3938
+      - category: Topic
+        name: Data streams
+        size: 3938
+      - category: Topic
+        name: Large datasets
+        size: 3938
+      - category: Topic
+        name: Data scarcity
+        size: 3938
+      - category: Topic
+        name: Label scarcity
+        size: 3938
+      name: Training challenges
+    - category: Subject
+      children:
+      - category: Topic
+        name: Training acceleration
+        size: 3938
+      - category: Topic
+        name: Transfer learning
+        size: 3938
+      - category: Topic
+        name: Data Augmentation
+        size: 3938
+      - category: Topic
+        name: ETL pipelines
+        size: 3938
+      name: Training hacks
+    - category: Subject
+      children:
+      - category: Topic
+        name: Experiment tracking
+        size: 3938
+      - category: Topic
+        name: Dataset versioning
+        size: 3938
+      name: ML experimentation
+    name: Training AI
+  name: Core
+- category: category
+  children:
+  - category: top_level
+    children:
+    - category: Subject
+      children:
+      - category: Topic
+        name: A/B testings
+        size: 3938
+      - category: Topic
+        name: Stratification
+        size: 3938
+      - category: Topic
+        name: Regression Discontinuity
+        size: 3938
+      - category: Topic
+        name: Propensity Score Weighting
+        size: 3938
+      - category: Topic
+        name: Difference in Differences
+        size: 3938
+      - category: Topic
+        name: Causal Forest
+        size: 3938
+      - category: Topic
+        name: Double Machine Learning
+        size: 3938
+      name: Causal inference
+    - category: Subject
+      children:
+      - category: Topic
+        name: Correlative Noise
+        size: 3938
+      - category: Topic
+        name: Population Diversity
+        size: 3938
+      - category: Topic
+        name: Target Unbalance
+        size: 3938
+      name: Data Source
+    name: Experiment design
+  - category: top_level
+    children:
+    - category: Subject
+      name: Recording bias
+      size: 3938
+    - category: Subject
+      name: Frequency bias
+      size: 3938
+    - category: Subject
+      name: Questionable features
+      size: 3938
+    - category: Subject
+      name: Privacy
+      size: 3938
+    name: AI ethics
+  - category: top_level
+    children:
+    - category: Subject
+      name: Data storage
+      size: 3938
+    - category: Subject
+      name: Data processing
+      size: 3938
+    - category: Subject
+      name: Data flow management
+      size: 3938
+    - category: Subject
+      name: Data security
+      size: 3938
+    - category: Subject
+      name: Model serving
+      size: 3938
+    - category: Subject
+      name: Cloud technologies
+      size: 3938
+    - category: Subject
+      name: Industry standards
+      size: 3938
+    - category: Subject
+      name: Scale computing
+      size: 3938
+    - category: Subject
+      children:
+      - category: Topic
+        name: Model pruning
+        size: 3938
+      - category: Topic
+        name: Model compilation
+        size: 3938
+      - category: Topic
+        name: GPU acceleration
+        size: 3938
+      - category: Topic
+        name: Knowledge distillation
+        size: 3938
+      name: Inference optimization
+    name: AI in production
+  - category: top_level
+    children:
+    - category: Subject
+      children:
+      - category: Topic
+        name: Feature Importance
+        size: 3938
+      - category: Topic
+        name: Partial Dependence Plots
+        size: 3938
+      - category: Topic
+        name: Accumulated Local Effects Plot
+        size: 3938
+      - category: Topic
+        name: Individual Conditional Expectation
+        size: 3938
+      - category: Topic
+        name: Surrogate Models
+        size: 3938
+      name: Model interpretability
+    - category: Subject
+      name: Model explainability
+      size: 3938
+    name: Model understanding
+  - category: top_level
+    children:
+    - category: Subject
+      name: Data Recording
+      size: 3938
+    - category: Subject
+      name: Data Labeling
+      size: 3938
+    - category: Subject
+      name: Data quality
+      size: 3938
+    - category: Subject
+      name: Data generation
+      size: 3938
+    - category: Subject
+      name: Scraping
+      size: 3938
+    - category: Subject
+      name: Combining datasets
+      size: 3938
+    name: Data Collection
+  - category: top_level
+    children:
+    - category: Topic
+      name: Containerization
+      size: 3938
+    - category: Topic
+      name: Orchestration
+      size: 3938
+    - category: Topic
+      name: Software testing
+      size: 3938
+    - category: Topic
+      name: CI/CD
+      size: 3938
+    name: DevOps
+  - category: top_level
+    children:
+    - category: Topic
+      name: Data versioning
+      size: 3938
+    - category: Topic
+      name: Model retraining
+      size: 3938
+    - category: Topic
+      name: Model management
+      size: 3938
+    - category: Topic
+      name: Model testing and validation
+      size: 3938
+    - category: Topic
+      name: Monitoring
+      size: 3938
+    name: MLOps
+  - category: top_level
+    children:
+    - category: Subject
+      name: RL IRL
+      size: 3938
+    - category: Subject
+      name: Model drift
+      size: 3938
+    name: Trasfering models to the real world
+  name: Practice
+- category: category
+  children:
+  - category: top_level
+    children:
+    - category: Subject
+      name: Deep Reinforcement Learning
+      size: 3938
+    - category: Subject
+      name: NLP
+      size: 3938
+    - category: Subject
+      name: Generative Adversarial Networks
+      size: 3938
+    - category: Subject
+      name: Transformers
+      size: 3938
+    - category: Subject
+      name: Few shot learning
+      size: 3938
+    - category: Subject
+      name: AutoML
+      size: 3938
+    - category: Subject
+      name: Meta Learning
+      size: 3938
+    - category: Subject
+      name: Metric Learning
+      size: 3938
+    - category: Subject
+      name: End to end Learning
+      size: 3938
+    name: Advanced ML Methods
+  - category: top_level
+    children:
+    - category: Subject
+      children:
+      - category: Topic
+        name: Cryptography
+        size: 3938
+      - category: Topic
+        name: Differential Privacy
+        size: 3938
+      - category: Topic
+        name: Federated Learning
+        size: 3938
+      name: Privacy
+    - category: Subject
+      name: Edge computing
+      size: 3938
+    - category: Subject
+      name: Signal processing
+      size: 3938
+    - category: Subject
+      name: Robotics
+      size: 3938
+    - category: Subject
+      name: Neuromorphic computing
+      size: 3938
+    name: Domain Topics
+  name: Advanced
+- category: category
+  children:
+  - category: top_level
+    children:
+    - category: Subject
+      children:
+      - category: Subject
+        name: AI
+        size: 3938
+      - category: Subject
+        name: Machine Learning
+        size: 3938
+      - category: Subject
+        name: Deep Learning
+        size: 3938
+      name: Basic understanding
+    - category: Subject
+      children:
+      - category: Subject
+        name: Data types
+        size: 3938
+      - category: Subject
+        name: Structured vs Unstructured
+        size: 3938
+      - category: Subject
+        name: Data Collection
+        size: 3938
+      - category: Subject
+        name: Data privacy
+        size: 3938
+      - category: Subject
+        children:
+        - category: Topic
+          name: Bogus in Bogus out
+          size: 3938
+        - category: Topic
+          name: Human error
+          size: 3938
+        - category: Topic
+          name: Prejudice
+          size: 3938
+        name: Biased data
+      name: Data
+    - category: Subject
+      children:
+      - category: Topic
+        name: Suitable problems
+        size: 3938
+      - category: Topic
+        name: Business case
+        size: 3938
+      - category: Topic
+        name: Make or buy
+        size: 3938
+      name: AI applicable?
+    name: Before you start
+  - category: top_level
+    children:
+    - category: Subject
+      children:
+      - category: Topic
+        name: Sufficient data
+        size: 3938
+      - category: Topic
+        name: Clean data
+        size: 3938
+      - category: Topic
+        name: Business alignment
+        size: 3938
+      - category: Topic
+        name: Clear Goal
+        size: 3938
+      name: AI prerequisites
+    - category: Subject
+      children:
+      - category: Topic
+        name: Unrealistic expectations
+        size: 3938
+      - category: Topic
+        name: Accuracy threshold
+        size: 3938
+      - category: Topic
+        name: Alignment business goals
+        size: 3938
+      - category: Topic
+        name: Lack quality data
+        size: 3938
+      - category: Topic
+        name: Misestimate engineering efforts
+        size: 3938
+      - category: Topic
+        name: Production software lacking
+        size: 3938
+      name: AI project pitfalls
+    - category: Subject
+      children:
+      - category: Topic
+        name: Model understanding
+        size: 3938
+      - category: Topic
+        name: Cost of mistake
+        size: 3938
+      - category: Topic
+        name: Experiment vs reality
+        size: 3938
+      - category: Topic
+        name: GDPR
+        size: 3938
+      - category: Topic
+        name: Model updates
+        size: 3938
+      - category: Topic
+        name: MLOps
+        size: 3938
+      name: AI in production
+    name: AI execution
+  - category: top_level
+    children:
+    - category: Subject
+      children:
+      - category: Topic
+        name: Kick-off
+        size: 3938
+      - category: Topic
+        name: Data warehousing
+        size: 3938
+      - category: Topic
+        name: BI and reporting
+        size: 3938
+      - category: Topic
+        name: Data-driven business
+        size: 3938
+      - category: Topic
+        name: AI experimentation
+        size: 3938
+      - category: Topic
+        name: AI in production
+        size: 3938
+      - category: Topic
+        name: AI business models
+        size: 3938
+      name: AI maturity
+    - category: Subject
+      children:
+      - category: Topic
+        name: AI hype
+        size: 3938
+      - category: Topic
+        name: AI limitations
+        size: 3938
+      - category: Topic
+        name: Reporting experiments
+        size: 3938
+      - category: Topic
+        name: AI news
+        size: 3938
+      name: AI overeporting
+    - category: Subject
+      children:
+      - category: Topic
+        name: State of the Art
+        size: 3938
+      - category: Topic
+        name: Third party AI
+        size: 3938
+      - category: Topic
+        name: AutoML
+        size: 3938
+      - category: Topic
+        name: Artificial General Intelligence
+        size: 3938
+      name: Future of AI
+    name: AI in industry
+  name: Soft Skills
+name: AI
