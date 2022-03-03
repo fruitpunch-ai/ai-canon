@@ -52,7 +52,37 @@ Foundation:
 
 AI Core:
   Data Egineering:
+    Data Exploration:
+    Data Cleaning:
+    Data Wrangling:
+    Feature engineering:
+      Fuzzy matching
+    
   Machine Learning:
+      ML basic concepts:
+        What is ML
+          Goal
+          Data
+          Target
+          Algorithm
+          Supervised vs Unsupervised
+        Machine Learning problems
+          Classification
+          Regression
+          Clustering
+        Common goals
+          Dimensionality reduction
+          Anomaly detection
+          Reinforcement learning
+          Sequence to Sequence modeling
+          Forecasting
+      Common algorithms:
+        Linear regression
+        Nearest Neighbors
+        RandomForest
+          XGBoost
+        Support Vector Machine
+        Neural Networks
   Deep Learning:
   AI training:
     Model evaluation:
