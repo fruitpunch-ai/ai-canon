@@ -24,6 +24,10 @@ Foundation:
       Matlab
   Maths:
     Statistics:
+      Curve fitting
+      ANOVA
+      Moving Average
+        SARIMA
     Logic and set theory:
     Calculus:
   Neural Networks:
@@ -52,6 +56,7 @@ Foundation:
 
 AI Core:
   Data Egineering:
+    @Dorian
     Data Exploration:
     Data Cleaning:
     Data Wrangling:
@@ -85,9 +90,36 @@ AI Core:
         Neural Networks
   Deep Learning:
   AI training:
+    Pitfalls:
+      Overfitting
+      Train test leakage
+      Confounding variables
+      Faulty data
+      Biased data
+      Unbalanced data
+    Training challenges:
+      Cross validation
+      Hyperparameter optimization
+      Data streams
+      Large datasets
+      Data scarcity
+      Label scarcity
+    Training hacks:
+      Training acceleration
+      Transfer learning
+      Data Augmentation
+      ETL pipelines
+    ML experimentation:
+      Experiment tracking
+      Dataset versioning
     Model evaluation:
-  AI pitfalls:
-    bias
+      Classification metrics
+      Regression metrics
+      Cluster metrics
+      Feature importance
+      Visualization
+      Domain expertise
+      Generalization
 AI in Pracktice:
   Tooling:
     Developer skills:
