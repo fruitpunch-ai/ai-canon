@@ -89,6 +89,18 @@ AI Core:
         Support Vector Machine
         Neural Networks
   Deep Learning:
+    DL basic consepts:
+      Neurons
+      Layers
+      Activation functions
+      Loss functions
+      Optimizers
+      Input shape
+    Common types:
+      Multilayer perceptrons
+      Convolutional Neural Networks
+      Recurrent Neural Network
+      Autoencoders
   AI training:
     Pitfalls:
       Overfitting
@@ -120,6 +132,7 @@ AI Core:
       Visualization
       Domain expertise
       Generalization
+      Domain knowledge validation
 AI in Pracktice:
   Tooling:
     Developer skills:
