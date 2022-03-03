@@ -14,6 +14,7 @@ AI Core:
   Machine Learning:
   Deep Learning:
   AI training:
+    Model evaluation:
   AI pitfalls:
     bias
 AI in Pracktice:
@@ -30,6 +31,10 @@ AI in Pracktice:
     Cloud computing:
     Edge computing:
     HPC:
+  Model in production:
+    Model drift
+  Experiment design:
+  
 AI Application:
   Data formats:
     NLP:
@@ -39,17 +44,28 @@ AI Application:
     Signal processing:
       Wave scattering
     Tabular:
+    Timeseries:
   Problems:
     Optimization:
-        Reinforcement Learning
+      Reinforcement Learning
     Generation:
       GANs
       VAEs
-    Unsuperviced 
+    Prediction:
+      Forecasting:
+      Predictive maintance:
+    Categorization:
+      Limted Labels:
+        Zero shot
+        Few shot
+        One shot
+    Custering:
+    Unsupervised:
       AE
-    Few shot:
-      Zero shot
-      Few shot
+    Feature learning:
+      Representation Learning:
+        Siamese networks
+        Triplet networks
   
 Soft skills:
   People:
