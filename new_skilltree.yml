@@ -85,7 +85,7 @@ AI Core:
         Linear regression
         Nearest Neighbors
         RandomForest
-          XGBoost
+        XGBoost
         Support Vector Machine
         Neural Networks
   Deep Learning:
@@ -146,13 +146,24 @@ AI in Pracktice:
       Model management
       Model testing and validation
       Monitoring
-    Model health:
       Model drift
-  Tooling:
-    Developer skills:
-    MLOps:
-    Big Data:
-    Simulation:
+    Inference optimization:
+      Model pruning
+      Model compilation
+      GPU acceleration
+      Knowledge distillation
+  Big Data:
+    On drive data formats:
+      HDF
+      Parquet
+    Process on drive:
+      Progressive Loading
+      Dask
+      Vaex
+      SQL
+    Production systems:
+      SPARK 
+      Hadoop
   Human Interaction:
     Model understanding:
         Model interpretability:
@@ -190,16 +201,45 @@ AI in Pracktice:
     Model attacks:
       Training data extraction attacks
       Adverserial attacks
-  Hardware:
-    Inference optimization:
-    Cloud computing:
-    Edge computing:
+  Infrastructure:
+    Cloud:
+      VPS:
+      Serverless:
+      ML APIs:
+      MLOps Services:
+      Training pipelines:
+    Edge:
+      Model conversion:
+        TensorRT
+        Tensorflow Light
+      Tiny ML:
+        Inference optimization
+      Sensors:
+      Streaming pipelines:
+      Edge orchistration:
+      Hardware:
+        Accelerated edge hardware:
+          Jetson
+        Micro computers:
+          RaspberryPi
+        Micro chips:
+          Arduino
+          ESP
     HPC:
+      HPC Hardware:
+        GPUs
+        TPUs
+        Compute servers
+        Compute clusters
+        On premice
+      Job scheduling:
+      Multi GPU training:
+      Multi node training:
   Experiment design:
     Data Collection:
       Data Labeling
       Data generation
-      Scraping
+      Web scraping
       Combining datasets
       Simulation
     Design pitfalls:
@@ -212,9 +252,6 @@ AI in Pracktice:
       Measurement bias
       Recall bias
       Observer bias
-
-    
-  
 AI Application:
   Data formats:
     NLP:
@@ -242,10 +279,10 @@ AI Application:
     Custering:
     Unsupervised:
       AE
-    Feature learning:
-      Representation Learning:
+    Representation Learning:
         Siamese networks
         Triplet networks
+  
   
 Soft skills:
   People:
