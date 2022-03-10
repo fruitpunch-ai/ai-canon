@@ -194,6 +194,10 @@ AI in Pracktice:
         Association bias
         Omitted variable bias
     Privacy:
+      Privacy preserving DS:
+        Crypograpy:
+        Differential Privacy:
+        Federated Learning:
       Anonymization:
         k-anonymity
         l-diversity
@@ -282,6 +286,8 @@ AI Application:
     Representation Learning:
         Siamese networks
         Triplet networks
+  Transfer Learning:
+
   
   
 Soft skills:
