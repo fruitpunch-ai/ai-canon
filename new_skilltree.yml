@@ -259,37 +259,109 @@ AI in Pracktice:
 AI Application:
   Data formats:
     NLP:
+      Problems:
+        Question answering:
+        Text classification:
+        Translation:
+        Feature extraction:
+        Text generation:
+      Models:
+        Word2Vec:
+        BERT:
+        GTP:
+
     Computer Vision:
-      Object detection
-      Visual clustering
+      Object classification:
+        VIT
+        DIT
+        BEIT
+        EfficientNet
+        Inception
+        ResNet
+        VGG
+      Object detection:
+        DETR
+        Detectron2
+        Faster-RCNN
+        Mask-RCNN
+        YOLO
+        MobileNet
+      Generation:
+        DALL-E
+        BigGAN
+      Object segmentation:
+      Visual clustering:
+    Audio:
+      Problems:
+        Text to speach:
+        Audio classification:
+      Models:
+        ESPnet
+        Tacotron2
+        Transformer-TTS
+        FastSpeech2
+        Wav2Vec
     Signal processing:
-      Wave scattering
+      Wave scattering:
     Tabular:
+      Relevant libraries:
+        Sklearn:
+        XGBoost:
     Timeseries:
   Problems:
     Optimization:
-      Reinforcement Learning
+      Reinforcement Learning:
+        Algorithms:
+          Q-learning
+          Policy optimization
+          DQN
+          PPO
+        Problem attributes:
+          Policy
+          Action space
+          State space
+          Operator
     Generation:
       GANs
       VAEs
+      Transformers
     Prediction:
+      Regression:
       Forecasting:
+        Moving average
+        SARIMAX
+        Prophet
+        RNN variants
       Predictive maintance:
     Categorization:
+      Unsupervised learning:
+        Clustering
+        Autoencoders
+        Anomaly detection
       Limted Labels:
-        Zero shot
-        Few shot
-        One shot
-    Custering:
-    Unsupervised:
-      AE
-    Representation Learning:
-        Siamese networks
-        Triplet networks
+        X shot learning:
+          Zero shot
+          One shot
+          Few shot
+        Semi-supervised learning:
+        Representation Learning:
+          Siamese networks
+          Triplet networks
   Transfer Learning:
-
-  
-  
+    Basics:
+      Variants:
+        Model on top
+        Retrain last layer
+        Finetune network
+      Advantages:
+        Faster training
+        Less power consumption
+        High accuracy
+      Common use cases:
+        NLP
+        Audio
+        Computer Vision
+        Simulation  
 Soft skills:
   People:
     Management:
