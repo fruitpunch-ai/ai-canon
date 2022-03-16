@@ -13,11 +13,11 @@ Foundation:
       SSH
       Virtual environments
       Linux
-    Python for DS:
+    Python for Data Science:
       Numpy
       Pandas
       Scipy
-    Alternative DS languages:
+    Alternative Data Science languages:
       R
       Julia
       Java
@@ -55,14 +55,48 @@ Foundation:
       Data Augmentation
 
 AI Core:
-  Data Egineering:
-    @Dorian
+  Data Engineering:
     Data Exploration:
+        Visualization:
+            Boxplot
+            Histogram
+            Scatterplot
+            Autovisualization
+        Correlation analysis:
+            Pearson
+            Spearman
+        Outlier analysis:
+            Z-score
+            Interquartile Range
+        Bias Analysis:
+            AI Fairness 360
+            DeepLIFT
+            Fairlearn
     Data Cleaning:
+        Missing value treatment:
+            Deletion
+            Imputation
+            Multiple imputation
+        Outlier treatment:
+            Trimming
+            Flooring/Capping
+        Bias treatment:
+            Reweighing
+            Adversarial Debiasing
+            Optimized Pre-Processing
+            CorrelationRemover
     Data Wrangling:
+        Data Type encoding:
+            Dummy encoding
+            One-hot encoding
+            Target encoding
+            Binary encoding
+        Data Enriching:
+            Merging
     Feature engineering:
       Fuzzy matching
-    
+      Feature Selection
+      Dimensionality reduction
   Machine Learning:
       ML basic concepts:
         What is ML
@@ -76,7 +110,6 @@ AI Core:
           Regression
           Clustering
         Common goals
-          Dimensionality reduction
           Anomaly detection
           Reinforcement learning
           Sequence to Sequence modeling
@@ -89,7 +122,7 @@ AI Core:
         Support Vector Machine
         Neural Networks
   Deep Learning:
-    DL basic consepts:
+    DL basic concepts:
       Neurons
       Layers
       Activation functions
@@ -110,7 +143,7 @@ AI Core:
       Biased data
       Unbalanced data
     Training challenges:
-      Cross validation
+      Cross-validation
       Hyperparameter optimization
       Data streams
       Large datasets
@@ -129,11 +162,12 @@ AI Core:
       Regression metrics
       Cluster metrics
       Feature importance
-      Visualization
+      Result Visualization
       Domain expertise
       Generalization
       Domain knowledge validation
-AI in Pracktice:
+
+AI in Practice:
   AI deployment:
     DevOps:
       Containerization
@@ -194,8 +228,8 @@ AI in Pracktice:
         Association bias
         Omitted variable bias
     Privacy:
-      Privacy preserving DS:
-        Crypograpy:
+      Privacy-preserving DS:
+        Cryptograpy:
         Differential Privacy:
         Federated Learning:
       Anonymization:
@@ -204,7 +238,7 @@ AI in Pracktice:
       GDPR:
     Model attacks:
       Training data extraction attacks
-      Adverserial attacks
+      Adversarial attacks
   Infrastructure:
     Cloud:
       VPS:
@@ -220,13 +254,13 @@ AI in Pracktice:
         Inference optimization
       Sensors:
       Streaming pipelines:
-      Edge orchistration:
+      Edge orchestration:
       Hardware:
         Accelerated edge hardware:
           Jetson
-        Micro computers:
+        Microcomputers:
           RaspberryPi
-        Micro chips:
+        Microchips:
           Arduino
           ESP
     HPC:
@@ -238,7 +272,7 @@ AI in Pracktice:
         On premice
       Job scheduling:
       Multi GPU training:
-      Multi node training:
+      Multi-node training:
   Experiment design:
     Data Collection:
       Data Labeling
@@ -256,6 +290,7 @@ AI in Pracktice:
       Measurement bias
       Recall bias
       Observer bias
+
 AI Application:
   Data formats:
     NLP:
@@ -269,7 +304,6 @@ AI Application:
         Word2Vec:
         BERT:
         GTP:
-
     Computer Vision:
       Object classification:
         VIT
@@ -291,7 +325,7 @@ AI Application:
         BigGAN
       Object segmentation:
       Visual clustering:
-    Audio:
+    Audio processing:
       Problems:
         Text to speach:
         Audio classification:
@@ -332,17 +366,17 @@ AI Application:
         SARIMAX
         Prophet
         RNN variants
-      Predictive maintance:
+      Predictive maintenance:
     Categorization:
       Unsupervised learning:
         Clustering
         Autoencoders
         Anomaly detection
-      Limted Labels:
+      Limited Labels:
         X shot learning:
-          Zero shot
-          One shot
-          Few shot
+          Zero-shot
+          One-shot
+          Few-shot
         Semi-supervised learning:
         Representation Learning:
           Siamese networks
@@ -362,39 +396,35 @@ AI Application:
         Audio
         Computer Vision
         Simulation  
+
 Soft skills:
   People:
     Management:
       Product ownership:
           Task management
-          Time management
           Prioritizing
-      Interteam coordination
-      Stakeholder management/Updating/Expectation management
+        Interteam coordination
+        Stakeholder management
     Leadership:
       Authenticity
       Mentorship
-      Generosity
       Decision making
     Organization:
       Planning
       Marketing & Recruiting
       External affairs
       Event organisation
-      Goal setting/Defining deliverables
+      Goal setting
   Social:
     Communication:
       Verbal communication
-      Reporting/Documentation
+      Documentation
       Presentation
-      Logical reasoning
     Teamwork:
       Constructive feedback
       Brainstorming
-      Collaboration
       Helpfulness
     Interpersonal:
-      Empathy
       Humor
       Networking
       Diplomacy
@@ -403,19 +433,15 @@ Soft skills:
       Self-management:
         Responsibility
         Discipline
-        Dependability
         Commitment
       Mindset:
-        Adaptability
-        Self-motivation
-        Optimism
-      Punctuality
-      Professionalism
+            Adaptability
+            Optimism
+        Punctuality
+        Professionalism
     Creativity:
       Imagination
-      Innovation
       Experimentation
-      Questioning
       Story-telling 
 
   
