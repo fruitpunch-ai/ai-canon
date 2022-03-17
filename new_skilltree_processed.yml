@@ -1,0 +1,439 @@
+Foundation:
+  Programming:
+    Programming basics:
+      - Variables
+      - Functions
+      - Types
+      - Data structures
+      - Artihmetic
+      - Conditional logic
+    Developer basics:
+      - IDEs
+      - Git
+      - SSH
+      - Virtual environments
+      - Linux
+    Python for Data Science:
+      - Numpy
+      - Pandas
+      - Scipy
+    Alternative Data Science languages:
+      - R
+      - Julia
+      - Java
+      - Matlab
+  Maths:
+    Statistics:
+      - Curve fitting
+      - ANOVA
+      - Moving Average
+      - SARIMA
+    Logic and set theory:
+    Calculus:
+  Neural Networks:
+    Building Blocks:
+      - Perceptron
+      - Layers
+      - Backpropagation
+      - Gradient Descent
+      - Activation functions
+      - Loss functions
+    Layer types:
+      - Dense
+      - Convolutional
+      - Recurrent
+      - Attention
+      - Augmentation
+      - Residual connections
+    Regularization:
+      - L1 & L2
+      - Dropout
+      - Normalization
+      - Denoizing
+      - Early stopping
+      - Pooling
+      - Data Augmentation
+AI Core:
+  Data Engineering:
+    Data Exploration:
+        Visualization:
+            - Boxplot
+            - Histogram
+            - Scatterplot
+            - Autovisualization
+        Correlation analysis:
+            - Pearson
+            - Spearman
+        Outlier analysis:
+            - Z-score
+            - Interquartile Range
+        Bias Analysis:
+            - AI Fairness 360
+            - DeepLIFT
+            - Fairlearn
+    Data Cleaning:
+        Missing value treatment:
+            - Deletion
+            - Imputation
+            - Multiple imputation
+        Outlier treatment:
+            - Trimming
+            - Flooring/Capping
+        Bias treatment:
+            - Reweighing
+            - Adversarial Debiasing
+            - Optimized Pre-Processing
+            - CorrelationRemover
+    Data Wrangling:
+        Data Type encoding:
+            - Dummy encoding
+            - One-hot encoding
+            - Target encoding
+            - Binary encoding
+        Data Enriching:
+            - Merging
+    Feature engineering:
+      - Fuzzy matching
+      - Feature Selection
+      - Dimensionality reduction
+  Machine Learning:
+      ML basic concepts:
+        - Goal
+        - Data
+        - Target
+        - Algorithm
+        - Supervised vs Unsupervised
+      ML goals:
+        - Classification
+        - Regression
+        - Clustering
+        - Anomaly detection
+        - Reinforcement learning
+        - Sequence to Sequence modeling
+        - Forecasting
+      Common algorithms:
+        - Linear regression
+        - Nearest Neighbors
+        - RandomForest
+        - XGBoost
+        - Support Vector Machine
+        - Neural Networks
+  Deep Learning:
+    DL basic concepts:
+      - Neurons
+      - Layers
+      - Activation functions
+      - Loss functions
+      - Optimizers
+      - Input shape
+    Common types:
+      - Multilayer perceptrons
+      - Convolutional Neural Networks
+      - Recurrent Neural Network
+      - Autoencoders
+  AI training:
+    Pitfalls:
+      - Overfitting
+      - Train test leakage
+      - Confounding variables
+      - Faulty data
+      - Biased data
+      - Unbalanced data
+    Training challenges:
+      - Cross-validation
+      - Hyperparameter optimization
+      - Data streams
+      - Large datasets
+      - Data scarcity
+      - Label scarcity
+    Training hacks:
+      - Training acceleration
+      - Transfer learning
+      - Data Augmentation
+      - ETL pipelines
+    ML experimentation:
+      - Experiment tracking
+      - Dataset versioning
+    Model evaluation:
+      - Classification metrics
+      - Regression metrics
+      - Cluster metrics
+      - Feature importance
+      - Result Visualization
+      - Domain expertise
+      - Generalization
+      - Domain knowledge validation
+AI in Practice:
+  AI deployment:
+    DevOps:
+      - Containerization
+      - Orchestration
+      - Software testing
+      - CI/CD
+    MLOps:
+      - Data versioning
+      - Model retraining
+      - Model management
+      - Model testing and validation
+      - Monitoring
+      - Model drift
+    Inference optimization:
+      - Model pruning
+      - Model compilation
+      - GPU acceleration
+      - Knowledge distillation
+  Big Data:
+    On drive data formats:
+      - HDF
+      - Parquet
+    Process on drive:
+      - Progressive Loading
+      - Dask
+      - Vaex
+      - SQL
+    Production systems:
+      - SPARK 
+      - Hadoop
+  Human Interaction:
+    Model understanding:
+        Model interpretability:
+          - Feature Importance
+          - Partial Dependence Plots
+          - Accumulated Local Effects Plot
+          - Individual Conditional Expectation
+          - Surrogate Models
+        Model explainability:
+    AI Fairness:
+      Fairness criteria:
+        - Independence
+        - Separation
+        - Sufficiency
+      Sensitive features:
+        - Ethnicity
+        - Sex
+        - Relion
+        - Gender
+        - Socioeconomic status
+        - Age
+      Biases:
+        - Sample bias
+        - Exclusion bias 
+        - Measurement bias
+        - Recall bias
+        - Observer bias
+        - Association bias
+        - Omitted variable bias
+    Privacy:
+      Privacy-preserving DS:
+        Cryptograpy:
+        Differential Privacy:
+        Federated Learning:
+      Anonymization:
+        - k-anonymity
+        - l-diversity
+      GDPR:
+    Model attacks:
+      - Training data extraction attacks
+      - Adversarial attacks
+  Infrastructure:
+    Cloud:
+      VPS:
+      Serverless:
+      ML APIs:
+      MLOps Services:
+      Training pipelines:
+    Edge:
+      Model conversion:
+        - TensorRT
+        - Tensorflow Light
+      Tiny ML:
+        - Inference optimization
+      Sensors:
+      Streaming pipelines:
+      Edge orchestration:
+      Hardware:
+        Accelerated edge hardware:
+          - Jetson
+        Microcomputers:
+          - RaspberryPi
+        Microchips:
+          - Arduino
+          - ESP
+    HPC:
+      HPC Hardware:
+        - GPUs
+        - TPUs
+        - Compute servers
+        - Compute clusters
+        - On premice
+      Job scheduling:
+      Multi GPU training:
+      Multi-node training:
+  Experiment design:
+    Data Collection:
+      - Data Labeling
+      - Data generation
+      - Web scraping
+      - Combining datasets
+      - Simulation
+    Design pitfalls:
+      - Causal inference
+      - Correlative Noise
+      - Population Diversity
+      - Target Unbalance
+    Collection biases:
+      - Sample bias
+      - Measurement bias
+      - Recall bias
+      - Observer bias
+AI Application:
+  Data formats:
+    NLP:
+      Problems:
+        Question answering:
+        Text classification:
+        Translation:
+        Feature extraction:
+        Text generation:
+      Models:
+        Word2Vec:
+        BERT:
+        GTP:
+    Computer Vision:
+      Object classification:
+        - VIT
+        - DIT
+        - BEIT
+        - EfficientNet
+        - Inception
+        - ResNet
+        - VGG
+      Object detection:
+        - DETR
+        - Detectron2
+        - Faster-RCNN
+        - Mask-RCNN
+        - YOLO
+        - MobileNet
+      Generation:
+        - DALL-E
+        - BigGAN
+      Object segmentation:
+      Visual clustering:
+    Audio processing:
+      Problems:
+        Text to speach:
+        Audio classification:
+      Models:
+        - ESPnet
+        - Tacotron2
+        - Transformer-TTS
+        - FastSpeech2
+        - Wav2Vec
+    Signal processing:
+      Wave scattering:
+    Tabular:
+      Relevant libraries:
+        Sklearn:
+        XGBoost:
+    Timeseries:
+  Problems:
+    Optimization:
+      Reinforcement Learning:
+        Algorithms:
+          - Q-learning
+          - Policy optimization
+          - DQN
+          - PPO
+        Problem attributes:
+          - Policy
+          - Action space
+          - State space
+          - Operator
+    Generation:
+      - GANs
+      - VAEs
+      - Transformers
+    Prediction:
+      Regression:
+      Forecasting:
+        - Moving average
+        - SARIMAX
+        - Prophet
+        - RNN variants
+      Predictive maintenance:
+    Categorization:
+      Unsupervised learning:
+        - Clustering
+        - Autoencoders
+        - Anomaly detection
+      Limited Labels:
+        X shot learning:
+          - Zero-shot
+          - One-shot
+          - Few-shot
+        Semi-supervised learning:
+        Representation Learning:
+          - Siamese networks
+          - Triplet networks
+  Transfer Learning:
+    Basics:
+      Variants:
+        - Model on top
+        - Retrain last layer
+        - Finetune network
+      Advantages:
+        - Faster training
+        - Less power consumption
+        - High accuracy
+      Common use cases:
+        - NLP
+        - Audio
+        - Computer Vision
+        - Simulation
+Soft skills:
+  People:
+    Management:
+      Product ownership:
+        - Task management
+        - Prioritizing
+        - Interteam coordination
+        - Stakeholder management
+    Leadership:
+      - Authenticity
+      - Mentorship
+      - Decision making
+    Organization:
+      - Planning
+      - Marketing & Recruiting
+      - External affairs
+      - Event organisation
+      - Goal setting
+  Social:
+    Communication:
+      - Verbal communication
+      - Documentation
+      - Presentation
+    Teamwork:
+      - Constructive feedback
+      - Brainstorming
+      - Helpfulness
+    Interpersonal:
+      - Humor
+      - Networking
+      - Diplomacy
+  Personal:
+    Work Ethic:
+      Self-management:
+        - Responsibility
+        - Discipline
+        - Commitment
+      Mindset:
+        - Adaptability
+        - Optimism
+        - Punctuality
+        - Professionalism
+    Creativity:
+      - Imagination
+      - Experimentation
+      - Story-telling 

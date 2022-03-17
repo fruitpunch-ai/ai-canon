@@ -27,7 +27,7 @@ Foundation:
       Curve fitting
       ANOVA
       Moving Average
-        SARIMA
+      SARIMA
     Logic and set theory:
     Calculus:
   Neural Networks:
@@ -53,7 +53,6 @@ Foundation:
       Early stopping
       Pooling
       Data Augmentation
-
 AI Core:
   Data Engineering:
     Data Exploration:
@@ -99,21 +98,19 @@ AI Core:
       Dimensionality reduction
   Machine Learning:
       ML basic concepts:
-        What is ML
-          Goal
-          Data
-          Target
-          Algorithm
-          Supervised vs Unsupervised
-        Machine Learning problems
-          Classification
-          Regression
-          Clustering
-        Common goals
-          Anomaly detection
-          Reinforcement learning
-          Sequence to Sequence modeling
-          Forecasting
+        Goal
+        Data
+        Target
+        Algorithm
+        Supervised vs Unsupervised
+      ML goals:
+        Classification
+        Regression
+        Clustering
+        Anomaly detection
+        Reinforcement learning
+        Sequence to Sequence modeling
+        Forecasting
       Common algorithms:
         Linear regression
         Nearest Neighbors
@@ -166,7 +163,6 @@ AI Core:
       Domain expertise
       Generalization
       Domain knowledge validation
-
 AI in Practice:
   AI deployment:
     DevOps:
@@ -290,7 +286,6 @@ AI in Practice:
       Measurement bias
       Recall bias
       Observer bias
-
 AI Application:
   Data formats:
     NLP:
@@ -395,14 +390,13 @@ AI Application:
         NLP
         Audio
         Computer Vision
-        Simulation  
-
+        Simulation
 Soft skills:
   People:
     Management:
       Product ownership:
-          Task management
-          Prioritizing
+        Task management
+        Prioritizing
         Interteam coordination
         Stakeholder management
     Leadership:
@@ -435,13 +429,11 @@ Soft skills:
         Discipline
         Commitment
       Mindset:
-            Adaptability
-            Optimism
+        Adaptability
+        Optimism
         Punctuality
         Professionalism
     Creativity:
       Imagination
       Experimentation
       Story-telling 
-
-  
