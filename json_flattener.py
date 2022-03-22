@@ -1,6 +1,6 @@
 import json
 
-canon = json.load(open('ai_canon.json'))
+canon = json.load(open('new_skilltree_processed.json'))
 
 def recurse_json(old_obj, count=0):
     new_obj = []
@@ -26,4 +26,4 @@ if yml:
     import yaml
     yaml.dump(flat_canon, open('flat_ai_canon.yml', 'w'))
 
-json.dump(flat_canon, open('flat_ai_canon.json', 'w'), indent=4)
+json.dump(flat_canon, open('flat_new_skilltree_processed.json', 'w'), indent=4)

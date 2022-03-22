@@ -1,0 +1,69 @@
+{
+    "Programming": {
+        "Programming basics": [
+            "Variables",
+            "Functions",
+            "Types",
+            "Data structures",
+            "Artihmetic",
+            "Conditional logic"
+        ],
+        "Developer basics": [
+            "IDEs",
+            "Git",
+            "SSH",
+            "Virtual environments",
+            "Linux"
+        ],
+        "Python for Data Science": [
+            "Numpy",
+            "Pandas",
+            "Scipy"
+        ],
+        "Alternative Data Science languages": [
+            "R",
+            "Julia",
+            "Java",
+            "Matlab"
+        ]
+    },
+    "Maths": {
+        "Statistics": [
+            "Curve fitting",
+            "ANOVA",
+            "Moving Average",
+            "SARIMA"
+        ],
+        "Logic and set theory": null,
+        "Calculus": null
+    },
+    "Neural Networks": {
+        "Building Blocks": [
+            "Perceptron",
+            "Layers",
+            "Backpropagation",
+            "Gradient Descent",
+            "Activation functions",
+            "Loss functions"
+        ],
+        "Layer types": [
+            "Dense",
+            "Convolutional",
+            "Recurrent",
+            "Attention",
+            "Augmentation",
+            "Residual connections"
+        ],
+        "Regularization": [
+            "L1 & L2",
+            "Dropout",
+            "Normalization",
+            "Denoizing",
+            "Early stopping",
+            "Pooling",
+            "Data Augmentation"
+        ]
+    },
+    "name": "Foundation",
+    "size": 3938
+}
