@@ -118,6 +118,8 @@ AI Core:
         XGBoost
         Support Vector Machine
         Neural Networks
+      Relevant libraries:
+        Sklearn:
   Deep Learning:
     DL basic concepts:
       Neurons
@@ -131,6 +133,9 @@ AI Core:
       Convolutional Neural Networks
       Recurrent Neural Network
       Autoencoders
+    Relevant libraries:
+        Tensorflow:
+        Pytorch:
   AI training:
     Pitfalls:
       Overfitting
@@ -391,6 +396,7 @@ AI Application:
         Audio
         Computer Vision
         Simulation
+  AutoML:
 Soft skills:
   People:
     Management:
