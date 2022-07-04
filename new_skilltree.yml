@@ -42,7 +42,6 @@ Foundation:
       Dense
       Convolutional
       Recurrent
-
       Attention
       Augmentation
       Residual connections

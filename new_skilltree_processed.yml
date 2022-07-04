@@ -8,15 +8,15 @@ Foundation:
       - Artihmetic
       - Conditional logic
     Developer basics:
-      - IDEs
-      - Git
-      - SSH
-      - Virtual environments
-      - Linux
+      IDEs:
+      Git:
+      SSH:
+      Virtual environments:
+      Linux:
     Python for Data Science:
-      - Numpy
-      - Pandas
-      - Scipy
+      Numpy:
+      Pandas:
+      Scipy:
     Alternative Data Science languages:
       - R
       - Julia
@@ -31,21 +31,21 @@ Foundation:
     Logic and set theory:
     Calculus:
   Neural Networks:
-    Building Blocks:
+    NN Building Blocks:
       - Perceptron
       - Layers
       - Backpropagation
       - Gradient Descent
       - Activation functions
       - Loss functions
-    Layer types:
+    NN Layer types:
       - Dense
       - Convolutional
       - Recurrent
       - Attention
       - Augmentation
       - Residual connections
-    Regularization:
+    NN Regularization:
       - L1 & L2
       - Dropout
       - Normalization
@@ -118,6 +118,9 @@ AI Core:
         - XGBoost
         - Support Vector Machine
         - Neural Networks
+      Relevant libraries:
+        Sklearn:
+        XGBoost:
   Deep Learning:
     DL basic concepts:
       - Neurons
@@ -127,10 +130,12 @@ AI Core:
       - Optimizers
       - Input shape
     Common types:
-      - Multilayer perceptrons
-      - Convolutional Neural Networks
-      - Recurrent Neural Network
-      - Autoencoders
+      Multilayer perceptrons:
+      Convolutional Neural Networks:
+      Recurrent Neural Networks:
+    Relevant libraries:
+        Tensorflow:
+        Pytorch:
   AI training:
     Pitfalls:
       - Overfitting
@@ -140,12 +145,12 @@ AI Core:
       - Biased data
       - Unbalanced data
     Training challenges:
-      - Cross-validation
-      - Hyperparameter optimization
-      - Data streams
-      - Large datasets
-      - Data scarcity
-      - Label scarcity
+      Cross-validation:
+      Hyperparameter optimization:
+      Data streams:
+      Large datasets:
+      Data scarcity:
+      Label scarcity:
     Training hacks:
       - Training acceleration
       - Transfer learning
@@ -155,33 +160,33 @@ AI Core:
       - Experiment tracking
       - Dataset versioning
     Model evaluation:
-      - Classification metrics
-      - Regression metrics
-      - Cluster metrics
-      - Feature importance
-      - Result Visualization
-      - Domain expertise
-      - Generalization
-      - Domain knowledge validation
+      Classification metrics:
+      Regression metrics:
+      Cluster metrics:
+      Feature importance:
+      Result Visualization:
+      Domain expertise:
+      Generalization:
+      Domain knowledge validation:
 AI in Practice:
   AI deployment:
     DevOps:
-      - Containerization
-      - Orchestration
-      - Software testing
-      - CI/CD
+      Containerization:
+      Orchestration:
+      Software testing:
+      CI/CD:
     MLOps:
-      - Data versioning
+      - Data managment
       - Model retraining
       - Model management
       - Model testing and validation
       - Monitoring
       - Model drift
     Inference optimization:
-      - Model pruning
-      - Model compilation
-      - GPU acceleration
-      - Knowledge distillation
+      Model pruning:
+      Model compilation:
+      GPU acceleration:
+      Knowledge distillation:
   Big Data:
     On drive data formats:
       - HDF
@@ -192,8 +197,8 @@ AI in Practice:
       - Vaex
       - SQL
     Production systems:
-      - SPARK 
-      - Hadoop
+      SPARK:
+      Hadoop:
   Human Interaction:
     Model understanding:
         Model interpretability:
@@ -244,8 +249,9 @@ AI in Practice:
       Training pipelines:
     Edge:
       Model conversion:
-        - TensorRT
-        - Tensorflow Light
+        TensorRT:
+        Tensorflow Light:
+        ONNX:
       Tiny ML:
         - Inference optimization
       Sensors:
@@ -271,11 +277,10 @@ AI in Practice:
       Multi-node training:
   Experiment design:
     Data Collection:
-      - Data Labeling
-      - Data generation
-      - Web scraping
-      - Combining datasets
-      - Simulation
+      Data Labeling:
+      Data generation:
+      Web scraping:
+      Simulation:
     Design pitfalls:
       - Causal inference
       - Correlative Noise
@@ -289,18 +294,18 @@ AI in Practice:
 AI Application:
   Data formats:
     NLP:
-      Problems:
+      NLP Problems:
         Question answering:
         Text classification:
         Translation:
         Feature extraction:
         Text generation:
-      Models:
-        Word2Vec:
-        BERT:
-        GTP:
+      NLP Models:
+        - Word2Vec
+        - BERT
+        - GTP
     Computer Vision:
-      Object classification:
+      Image classification:
         - VIT
         - DIT
         - BEIT
@@ -315,7 +320,7 @@ AI Application:
         - Mask-RCNN
         - YOLO
         - MobileNet
-      Generation:
+      Image generation:
         - DALL-E
         - BigGAN
       Object segmentation:
@@ -332,20 +337,18 @@ AI Application:
         - Wav2Vec
     Signal processing:
       Wave scattering:
+      Fourier Transform:
     Tabular:
-      Relevant libraries:
-        Sklearn:
-        XGBoost:
     Timeseries:
   Problems:
     Optimization:
       Reinforcement Learning:
-        Algorithms:
+        RL Algorithms:
           - Q-learning
           - Policy optimization
           - DQN
           - PPO
-        Problem attributes:
+        RL Problem attributes:
           - Policy
           - Action space
           - State space
@@ -364,33 +367,34 @@ AI Application:
       Predictive maintenance:
     Categorization:
       Unsupervised learning:
-        - Clustering
-        - Autoencoders
-        - Anomaly detection
+        Clustering:
+        Autoencoders:
+        Anomaly detection:
       Limited Labels:
         X shot learning:
-          - Zero-shot
-          - One-shot
-          - Few-shot
+          Zero-shot:
+          One-shot:
+          Few-shot:
         Semi-supervised learning:
         Representation Learning:
           - Siamese networks
           - Triplet networks
+      Classification:
   Transfer Learning:
-    Basics:
-      Variants:
-        - Model on top
-        - Retrain last layer
-        - Finetune network
-      Advantages:
-        - Faster training
-        - Less power consumption
-        - High accuracy
-      Common use cases:
-        - NLP
-        - Audio
-        - Computer Vision
-        - Simulation
+    TL methods:
+      - Model on top
+      - Retrain last layer
+      - Finetune network
+    TL Advantages:
+      - Faster training
+      - Less power consumption
+      - High accuracy
+    TL use cases:
+      - NLP
+      - Audio
+      - Computer Vision
+      - Simulation
+  AutoML:
 Soft skills:
   People:
     Management:
