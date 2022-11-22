@@ -8,7 +8,6 @@ Foundation:
       - Artihmetic
       - Conditional logic
     Developer basics:
-      IDEs:
       Git:
       SSH:
       Virtual environments:
@@ -301,9 +300,10 @@ AI Application:
         Feature extraction:
         Text generation:
       NLP Models:
-        - Word2Vec
-        - BERT
-        - GTP
+        Word2Vec:
+        BERT:
+        GTP:
+        BLOOM:
     Computer Vision:
       Image classification:
         - VIT
@@ -323,6 +323,7 @@ AI Application:
       Image generation:
         - DALL-E
         - BigGAN
+        - Stable Diffusion
       Object segmentation:
       Visual clustering:
     Audio processing:
@@ -338,6 +339,15 @@ AI Application:
     Signal processing:
       Wave scattering:
       Fourier Transform:
+    Geospatial:
+      GIS:
+        Remote Sensing:
+        Hyperspectral data:
+        Coordinate mapping:
+      GIS Tools:
+        QGIS:
+        GeoPandas:
+        Esri:
     Tabular:
     Timeseries:
   Problems:
