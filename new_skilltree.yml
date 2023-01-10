@@ -1,58 +1,48 @@
-Foundation:
-  Programming:
-    Programming basics:
-      Variables
-      Functions
-      Types
-      Data structures
-      Artihmetic
-      Conditional logic
-    Developer basics:
-      Git:
-      SSH:
-      Virtual environments:
-      Linux:
-    Python for Data Science:
-      Numpy:
-      Pandas:
-      Scipy:
-    Alternative Data Science languages:
-      R
-      Julia
-      Java
-      Matlab
-  Maths:
-    Statistics:
-      Curve fitting
-      ANOVA
-      Moving Average
-      SARIMA
-    Logic and set theory:
-    Calculus:
-  Neural Networks:
-    NN Building Blocks:
-      Perceptron
-      Layers
-      Backpropagation
-      Gradient Descent
-      Activation functions
-      Loss functions
-    NN Layer types:
-      Dense
-      Convolutional
-      Recurrent
-      Attention
-      Augmentation
-      Residual connections
-    NN Regularization:
-      L1 & L2
-      Dropout
-      Normalization
-      Denoizing
-      Early stopping
-      Pooling
-      Data Augmentation
-AI Core:
+Programming:
+  Programming basics:
+    Variables
+    Functions
+    Types
+    Data structures
+    Artihmetic
+    Conditional logic
+  Developer basics:
+    Git:
+    SSH:
+    Virtual environments:
+    Linux:
+  Software development:
+    Frontend development:
+      React
+      Vue.js
+      Svelte
+    Backend development:
+      Flask
+      Django
+      Express
+      C# .Net
+      Java Spring
+    Object oriented programming:
+    Dockers:
+  Software architecture:
+    Database design:
+    Entity design:
+    Component design:
+    Micro servicing:
+    Cloud providers:
+      AWS
+      Azure
+      GCP
+  Python for Data Science:
+    Numpy:
+    Pandas:
+    Scipy:
+  Alternative Data Science languages:
+    R
+    Julia
+    Java
+    Matlab
+Building AI:
   Data Engineering:
     Data Exploration:
         Visualization:
@@ -121,13 +111,29 @@ AI Core:
         Sklearn:
         XGBoost:
   Deep Learning:
-    DL basic concepts:
-      Neurons
-      Layers
-      Activation functions
-      Loss functions
-      Optimizers
-      Input shape
+    Neural Networks:
+      NN Building Blocks:
+        Perceptron
+        Layers
+        Backpropagation
+        Gradient Descent
+        Activation functions
+        Loss functions
+      NN Layer types:
+        Dense
+        Convolutional
+        Recurrent
+        Attention
+        Augmentation
+        Residual connections
+      NN Regularization:
+        L1 & L2
+        Dropout
+        Normalization
+        Denoizing
+        Early stopping
+        Pooling
+        Data Augmentation
     Common types:
       Multilayer perceptrons:
       Convolutional Neural Networks:
@@ -167,7 +173,7 @@ AI Core:
       Domain expertise:
       Generalization:
       Domain knowledge validation:
-AI in Practice:
+In Practice:
   AI deployment:
     DevOps:
       Containerization:
@@ -290,7 +296,7 @@ AI in Practice:
       Measurement bias
       Recall bias
       Observer bias
-AI Application:
+AI Methods:
   Data formats:
     NLP:
       NLP Problems:
